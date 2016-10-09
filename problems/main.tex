@@ -1,0 +1,249 @@
+\documentclass{ctexart}
+\author{}
+\date{2016.9.27}
+\title{transportation problems}
+\bibliographystyle{plain}
+\newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[numbers,sort&compress,square,super]{natbib}
+\usepackage{graphicx}
+\usepackage{caption,subcaption}%插子图的子标题
+\usepackage{asymptote}
+%\usepackage{ctex}
+
+\begin{document}
+\maketitle
+
+\section{L1}
+\begin{enumerate}
+	\item 	n a particle system, the mass density ρ is defined at some point $x_0$,
+	\begin{equation}
+	\rho(x_0)=\frac{m_0 dN}{dV}
+	\end{equation}
+	Where $m_0$ is the mass of a particle, dV is the volume of the element that contains $x_0$,dN is the particle number in the element. The figure below shows how $\rho(x_0)$ varies at different scales of dV,explain it respectively.
+	\begin{center}
+	\includegraphics[width=0.7\linewidth]{"figs/density at different scales"}
+	\end{center}
+
+	\item Figure below shows the position of an element with sides parallel to the coordinate axes at time t, and its subsequent position at t+dt. express the strain rate $((dα+dβ)/dt)$  with $u_1,u_2,x_1,x_2$
+	\begin{center}
+	\includegraphics[width=0.7\linewidth]{"figs/strain illustrate"}
+	\end{center}
+	
+	
+	\item
+		Consider the viscous flow in a channel of width 2b. The channel is aligned in the x direction, and the velocity at a distance y from the centerline is given by the parabolic distribution
+		\begin{equation}
+		u(y)=U_0 (1-\frac{y^2}{b^2}) 
+		\end{equation}
+		In terms of the viscosity $\mu$, calculate the shear stress at a distance of $y = b/2$.
+		\begin{center}
+		\includegraphics[width=0.7\linewidth]{"figs/paraloid profile at channel"}
+		\end{center}
+	\item
+	Given a velocity field $v=\begin{pmatrix}
+	u\\
+	v
+	\end{pmatrix}$ such that
+	\begin{equation}
+	\begin{pmatrix}
+	u\\
+	v
+	\end{pmatrix}=
+	\begin{pmatrix}
+	0&c\\
+	c&0
+	\end{pmatrix}
+	\begin{pmatrix}
+	x\\
+	y
+	\end{pmatrix}
+	\end{equation}
+	Determine the shear stress $\tau$ along $i,j,i+j$ direction (denote them $\tau_x,\tau_y,\tau_{xy}$ respectively)
+	
+	
+	\item
+		Two clean and parallel glass plates, separated by a gap of 1.625mm, are dipped in water. If Coefficient of surface tension $\sigma$=0.0735"N/m" , determine how high the water will rise.
+	
+	
+	\item
+	
+		Determine the difference in pressure between the inside and outside of a soap film bubble at 20°"C"  if the diameter of the bubble is 4 mm.
+		
+	\item
+		Determine the diameter of the glass tube necessary to keep the capillary-height change of water at 30°"C"  less than 1 mm.
+		
+	\item 
+		An auto lift consists of 36.02-cm-diameter ram that slides in a 36.04-cm-diameter cylinder. The annular region is filled with oil having a kinematic viscosity of 0.00037$m^2$/"s"  and a specific gravity of 0.85. If the rate of travel of the ram is 0.15 m/s, estimate the frictional resistance when 3.14 m of the ram is engaged in the cylinder.
+		
+	\item 
+	9.	If the ram and auto rack in the previous problem together have a mass of 680 kg, estimate the maximum sinking speed of the ram and rack when gravity and viscous friction are the only forces acting. Assume 2.44 m of the ram engaged.
+	
+	\item
+		The conical pivot shown in the figure has angular velocity ω and rests on an oil film of uniform thickness h. Determine the frictional moment as a function of the angle a, the viscosity, the angular velocity, the gap distance, and the shaft diameter.
+		\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/conical pivot"}
+\end{center}
+
+		
+\end{enumerate}
+
+
+\section{L2}
+\begin{enumerate}
+	\item 	Matter is attracted to the center of Earth with a force proportional to the radial distance from the center. Using the known value of g at the surface where the radius is 6330 km, compute the pressure at Earth’s center, assuming the material behaves like a liquid, and that the mean specific gravity is 5.67.
+	
+	\item 
+		Determine the depth change to cause a pressure increase of 1 atm for (a) water, (b) sea water (specific gravity=1.0250), and (c) mercury (SG = 13.6).
+		
+	\item
+		What is the pressure $p_A$ in the figure? The specific gravity of the oil is 0.8.
+		\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/What is the pressure"}
+\end{center}
+
+
+\item
+	The car shown in the figure is accelerated to the right at a uniform rate. What way will the balloon （tied by the string） move relative to the car?
+	\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/baloon car"}
+\end{center}
+
+
+\item
+	It is desired to use a 0.75-m diameter beach ball to stop a drain in a swimming pool. Obtain an expression that relates the drain diameter D and the minimum water depth h for which the ball will remain in place.
+	\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/beach ball pool"}
+\end{center}
+
+	
+	\item
+		The circular gate ABC has a 1m radius and is hinged at B. Neglecting atmospheric pressure, determine the force P just sufficient to keep the gate from opening when h= 12m.
+		\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/the circular gate"}
+\end{center}
+
+
+
+	\item
+	The figure below shows an open triangular channel in which the two sides, AB and AC, are held together by cables, spaced 1mapart, between B and C. Determine the cable tension
+	\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/open triangular channel"}
+\end{center}
+
+
+
+	\item
+		The dam shown below is 100 m wide. Determine the magnitude and location of the force on the inclined surface.
+		\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/inclined dam"}
+\end{center}
+
+		
+		
+	\item
+		The float in a toilet tank is a sphere of radius $R$ and is made of a material with density $r$. An upward buoyant force $F$ is required to shut the ballcock valve. The density of water is designated $\rho_w$. Develop an expression for $x$, the fraction of the float submerged, in terms of $R, r, F, g$, and $\rho_w$.
+		
+
+
+	\item
+		A cubical piece of wood with an edge L in length floats in the water. The specific gravity of the wood is 0.90. What moment M is required to hold the cube in the position shown? The right-hand edge of the block is flush with the water.
+		\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/a cubic piece of wood"}
+\end{center}		
+\end{enumerate}
+
+
+
+\section{L3-L4}
+\begin{enumerate}
+
+	\item  \label{item:abstract motion to field}
+	assume the motion is described by
+	\begin{align}
+	\mathbf{r}=\mathbf{f}(\mathbf{c},t)=\mathbf{g}(\mathbf{c})h(t)
+	\end{align}
+	find the expression of the velocity  field $\mathbf{v}$.
+	
+	\item
+	assume the motion is
+	\begin{align}
+	x=ct^2
+	\end{align}
+	use the result of \ref{item:abstract motion to field},find the expression of the velocity  field $v$.
+	\item
+	suppose in a one dimensional flow, the motion of the $c$th fluid element is given by
+	 \begin{equation}
+		x=f(c,t)
+	\end{equation}
+	and the temperature of the flow at time $t$ is distributed as
+	\begin{equation}
+	T=g(x,t)
+	\end{equation} 
+	find the temperature variation rate of the $c$th element.
+	\item
+	The velocity components in an unsteady plane flow are given by
+	\begin{align}
+	u=\frac{x}{1+t}\\
+	v=\frac{2y}{2+t}
+	\end{align}
+	find the path lines and the streamlines equation subjecting to $\mathbf{x = x_0}$ at $t = 0$.
+	
+	\item
+	Let a one-dimensional velocity field be $u = u(x, t)$. The density varies as $\rho = \rho_0(2 -\cos \omega t)$. Find an expression for $u(x, t)$
+	if $u(0, t) = U$.
+	
+	\item
+	The components of a mass flow vector $\rho\mathbf{ u}$ are $\rho u = 4x^2y$, $\rho v = xyz$,
+	$\rho w = yz^2$. Compute the net outflow through the closed surface formed by the planes
+	$x = 0, x = 1, y = 0, y = 1, z = 0, z = 1$.
+	(a) Integrate over the closed surface.
+	(b) Integrate over the volume bounded by that surface.
+	
+	\iffalse
+	\item
+	Water flows through a pipe in a gravitational field as shown in the accompanying figure. Neglect the effects of viscosity and surface tension. Solve the appropriate
+	conservation equations for the variation of the cross-sectional area of the fluid column
+	$A(z)$ after the water has left the pipe at $z = 0$. The velocity of the fluid at $z = 0$ is
+	uniform at $v_0$ and the cross-sectional area is $A_0$
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\linewidth]{"figs/Water flows through a pipe"}
+	\caption{}
+	\label{fig:Waterflowsthroughapipe}
+	\end{figure}
+	\fi
+	\item
+	A two-dimensional object is placed in a $2h$-wide water
+	tunnel as shown. The upstream velocity, $v_1$ , is uniform across the
+	cross section. For the downstream velocity profile as shown, find
+	the value of $v_2$
+	\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{"figs/James 5-1"}
+\caption{}
+\label{fig:James5-1}
+\end{figure}
+
+	
+	\item
+	consider fluid in  a channel of unit width and that the vertical velocity of the fluid  is negligible and the horizontal velocity $u(x,t)$ is roughly constant throughout any cross section of the channel.assume the fluid is incompressible so the density $\rho$ is constant,denote the depth of the fluid as $h(x,t)$ find the mass and momentum conserve equation of the fluid(the gravitational constant is $g$).
+	
+	
+	\item
+	Given the steady two-dimensional velocity distribution
+	\begin{align}
+	u=Kx, v=-Ky,w=0
+	\end{align}
+	where $K$ is a positive constant, compute and plot the streamlines of the flow, including directions.
+	
+	\item
+	Under what conditions does the velocity field
+	\begin{align}
+	V=(a_1x+b_1y+c_1z)\textbf{i}+(a_2x+b_2y+c_2z)\textbf{j}+(a_3x+b_3y+c_3z)\textbf{k}
+	\end{align}
+	
+	where a1, b1, etc. = const, represent an incompressible flow that conserves mass?
+\end{enumerate}
+\end{document}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  9 OCT 2016 17:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  9 OCT 2016 17:34
 entering extended mode
 **main.tex
 
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\solution\main.tex"
+a\problems and solutions\problems\main.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -439,7 +439,7 @@ Package: subcaption 2011/10/30 v1.1c Sub-captions (AR)
 Package: asymptote 2015/05/10 v1.29 Asymptote style file for LaTeX
 
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\solution\main.pre")
+a\problems and solutions\problems\main.pre")
 \ASYbox=\box38
 \c@asy=\count183
 \AsyStream=\write3
@@ -464,7 +464,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\solution\main.aux")
+a\problems and solutions\problems\main.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -579,73 +579,153 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for C19+rm on input line 21.
+LaTeX Font Info:    Try loading font information for C19+rm on input line 20.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\ctex\fd\c19rm.fd"
 File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
 )
-Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
- family 'def' instead. on input line 21.
+<"figs/density at different scales".jpg, id=1, 304.0158pt x 285.7074pt>
+File: "figs/density at different scales".jpg Graphic file (type jpg)
+
+<use "figs/density at different scales".jpg>
+Package pdftex.def Info: "figs/density at different scales".jpg used on input l
+ine 26.
+(pdftex.def)             Requested size: 223.999pt x 210.51772pt.
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
  [1
 
-] [2] [3]
-<figs/baloon.jpg, id=56, 963.6pt x 1284.8pt>
-File: figs/baloon.jpg Graphic file (type jpg)
- <use figs/baloon.jpg>
-Package pdftex.def Info: figs/baloon.jpg used on input line 161.
-(pdftex.def)             Requested size: 172.5pt x 229.99933pt.
- [4 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/solution/figs/baloon.jpg>] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+ <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport phenomen
+a/problems and solutions/problems/figs/density at different scales.jpg>]
+<"figs/strain illustrate".jpg, id=13, 627.84563pt x 345.54094pt>
+File: "figs/strain illustrate".jpg Graphic file (type jpg)
 
+<use "figs/strain illustrate".jpg>
+Package pdftex.def Info: "figs/strain illustrate".jpg used on input line 31.
+(pdftex.def)             Requested size: 223.999pt x 123.27686pt.
+
+<"figs/paraloid profile at channel".jpg, id=14, 993.7125pt x 343.2825pt>
+File: "figs/paraloid profile at channel".jpg Graphic file (type jpg)
+
+<use "figs/paraloid profile at channel".jpg>
+Package pdftex.def Info: "figs/paraloid profile at channel".jpg used on input l
+ine 42.
+(pdftex.def)             Requested size: 223.999pt x 77.38188pt.
+Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
+ family 'def' instead. on input line 72.
+ [2 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
+mena/problems and solutions/problems/figs/strain illustrate.jpg> <D:/roming vau
+lt/Log/life/jobs/南科大/传输现象助教/transport phenomena/problems and 
+solutions/problems/figs/paraloid profile at channel.jpg>]
+Overfull \hbox (5.18858pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/10.54 Determine the di-am-e-ter of the glass tube nec-es-sary to
+ keep the capillary-
  []
 
-<figs/4-12.jpg, id=66, 414.79968pt x 251.43938pt>
-File: figs/4-12.jpg Graphic file (type jpg)
- <use figs/4-12.jpg>
-Package pdftex.def Info: figs/4-12.jpg used on input line 299.
-(pdftex.def)             Requested size: 287.99802pt x 174.58295pt.
+<"figs/conical pivot".jpg, id=22, 210.03468pt x 291.33844pt>
+File: "figs/conical pivot".jpg Graphic file (type jpg)
+
+<use "figs/conical pivot".jpg>
+Package pdftex.def Info: "figs/conical pivot".jpg used on input line 86.
+(pdftex.def)             Requested size: 223.999pt x 310.71103pt.
+ [3]
+<"figs/What is the pressure".jpg, id=27, 377.15906pt x 278.54062pt>
+File: "figs/What is the pressure".jpg Graphic file (type jpg)
+
+<use "figs/What is the pressure".jpg>
+Package pdftex.def Info: "figs/What is the pressure".jpg used on input line 103
+.
+(pdftex.def)             Requested size: 223.999pt x 165.42558pt.
+ [4 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
+mena/problems and solutions/problems/figs/conical pivot.jpg>] <"figs/baloon car
+".jpg, id=31, 341.02406pt x 181.42781pt>
+File: "figs/baloon car".jpg Graphic file (type jpg)
+
+<use "figs/baloon car".jpg>
+Package pdftex.def Info: "figs/baloon car".jpg used on input line 110.
+(pdftex.def)             Requested size: 223.999pt x 119.16966pt.
+
+<"figs/beach ball pool".jpg, id=32, 237.13594pt x 176.91093pt>
+File: "figs/beach ball pool".jpg Graphic file (type jpg)
+
+<use "figs/beach ball pool".jpg>
+Package pdftex.def Info: "figs/beach ball pool".jpg used on input line 117.
+(pdftex.def)             Requested size: 223.999pt x 167.11691pt.
+ [5 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
+mena/problems and solutions/problems/figs/What is the pressure.jpg> <D:/roming 
+vault/Log/life/jobs/南科大/传输现象助教/transport phenomena/problems a
+nd solutions/problems/figs/baloon car.jpg>]
+<"figs/the circular gate".jpg, id=37, 153.57375pt x 248.42813pt>
+File: "figs/the circular gate".jpg Graphic file (type jpg)
+
+<use "figs/the circular gate".jpg>
+Package pdftex.def Info: "figs/the circular gate".jpg used on input line 124.
+(pdftex.def)             Requested size: 223.999pt x 362.37605pt.
+ [6 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
+mena/problems and solutions/problems/figs/beach ball pool.jpg>]
+<"figs/open triangular channel".jpg, id=41, 269.50688pt x 166.37157pt>
+File: "figs/open triangular channel".jpg Graphic file (type jpg)
+
+<use "figs/open triangular channel".jpg>
+Package pdftex.def Info: "figs/open triangular channel".jpg used on input line 
+132.
+(pdftex.def)             Requested size: 223.999pt x 138.28128pt.
  [7 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/solution/figs/4-12.jpg>] [8]
+mena/problems and solutions/problems/figs/the circular gate.jpg>]
+<"figs/inclined dam".jpg, id=46, 257.46187pt x 167.12437pt>
+File: "figs/inclined dam".jpg Graphic file (type jpg)
+
+<use "figs/inclined dam".jpg>
+Package pdftex.def Info: "figs/inclined dam".jpg used on input line 140.
+(pdftex.def)             Requested size: 223.999pt x 145.40721pt.
+
+<"figs/a cubic piece of wood".jpg, id=47, 228.855pt x 114.4275pt>
+File: "figs/a cubic piece of wood".jpg Graphic file (type jpg)
+
+<use "figs/a cubic piece of wood".jpg>
+Package pdftex.def Info: "figs/a cubic piece of wood".jpg used on input line 15
+3.
+(pdftex.def)             Requested size: 223.999pt x 112.00374pt.
+ [8 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
+mena/problems and solutions/problems/figs/open triangular channel.jpg> <D:/romi
+ng vault/Log/life/jobs/南科大/传输现象助教/transport phenomena/problem
+s and solutions/problems/figs/inclined dam.jpg>] [9 <D:/roming vault/Log/life/j
+obs/南科大/传输现象助教/transport phenomena/problems and solutions/pro
+blems/figs/a cubic piece of wood.jpg>]
+<"figs/James 5-1".jpg, id=56, 563.85657pt x 249.18094pt>
+File: "figs/James 5-1".jpg Graphic file (type jpg)
+
+<use "figs/James 5-1".jpg>
+Package pdftex.def Info: "figs/James 5-1".jpg used on input line 224.
+(pdftex.def)             Requested size: 241.49895pt x 106.72366pt.
+ [10 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport phen
+omena/problems and solutions/problems/figs/James 5-1.jpg>] [11]
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\solution\main.aux") ) 
+a\problems and solutions\problems\main.aux") ) 
 Here is how much of TeX's memory you used:
- 10933 strings out of 494045
- 176814 string characters out of 3148017
- 217382 words of memory out of 3000000
- 13967 multiletter control sequences out of 15000+200000
- 22239 words of font info for 81 fonts, out of 3000000 for 9000
+ 10867 strings out of 494045
+ 176607 string characters out of 3148017
+ 212378 words of memory out of 3000000
+ 13916 multiletter control sequences out of 15000+200000
+ 14734 words of font info for 56 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 36i,15n,38p,825b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,39p,825b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/simsun.ttc><C:/
 WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
-ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts
-/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDO
-WS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><
-C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sims
-un.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fo
-nts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WI
-NDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.tt
-c><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
-imsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
-/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><D:/Program Files/CTEX/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.p
-fb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/P
-rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program F
-iles/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/CTE
-X/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program Files/CTEX/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmsl10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb>
-Output written on main.pdf (8 pages, 410930 bytes).
+ttc><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:
+/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Progra
+m Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><
+D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (11 pages, 391356 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
