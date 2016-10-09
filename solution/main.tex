@@ -1,0 +1,330 @@
+\documentclass{ctexart}
+\author{}
+\date{2016.9.27}
+\title{solutions to transportation problems}
+\bibliographystyle{plain}
+\newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[numbers,sort&compress,square,super]{natbib}
+\usepackage{graphicx}
+\usepackage{caption,subcaption}%插子图的子标题
+\usepackage{asymptote}
+%\usepackage{ctex}
+
+\begin{document}
+\maketitle
+
+\section{L1}
+\begin{enumerate}
+\item
+	scalse 1 处于分子尺度，粒子非常稀疏，体微元包含的粒子数的变化$dN$与体微元有关,也就是$dN=dN(dV)$,因而$\frac{dN}{dV}\neq constant$，也就是密度$\rho$在这个尺度会随体微元的不同而不同.scale 2 处于连续尺度，体元宏观无穷小，而微观无穷大，在此尺度定义密度有：1)定义于一点处，因为体元宏观无穷小，在宏观上就是一点，2)在定义点处连续，因为微观无穷大使体元包含足够多的粒子，这使得附近点之间的粒子数平均不会发生突变，因而密度在空间上是连续分布的.scale 3 处于宏观尺度,这一个尺度上的体元已经感知到了密度的宏观变化
+
+	\item 
+	\begin{align}
+	\frac{d\alpha}{dt}=\frac{dx/dy}{dt}=\frac{\partial u}{\partial y}\\
+	\frac{d\beta}{dt}=\frac{dy/dx}{dt}=\frac{\partial v}{\partial x}
+	\end{align}
+	so
+	\begin{align}
+	\frac{d\alpha+d\beta}{dt}&=\frac{d\alpha}{dt}+\frac{d\beta}{dt}\\
+	&=\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}
+	\end{align}
+	\item 
+	\begin{align}
+	\tau_x=\frac{\partial u}{\partial y}=-\frac{2U_0y}{b^2}\\
+	\tau_x|_{y=\frac{b}{2}}=-\frac{U_0}{b}
+	\end{align}
+	
+	\item
+	\begin{align}
+	u=cy\\
+	v=cx
+	\end{align}
+	\begin{align}
+	\tau_x=\mu\frac{\partial \mathbf{v}}{\partial y}=\mu\frac{\partial}{\partial y}\begin{pmatrix}
+	u\\
+	v
+	\end{pmatrix}=\mu\begin{pmatrix}
+	c\\
+	0
+	\end{pmatrix}
+	\end{align}
+	\begin{align}
+	\tau_y=\mu\frac{\partial \mathbf{v}}{\partial x}=\mu\frac{\partial}{\partial x}\begin{pmatrix}
+	u\\
+	v
+	\end{pmatrix}=\mu\begin{pmatrix}
+	0\\
+	c
+	\end{pmatrix}
+	\end{align}
+	let $\mathbf{e=\frac{j+i}{\sqrt{2}}}$,
+	\begin{align}
+	\tau_{xy}&=\mu\frac{\partial \mathbf{v}}{\partial e}\\
+	&=\mu\left(\frac{\partial \mathbf{v}}{\partial x}\cos(\mathbf{e,i})+\frac{\partial \mathbf{v}}{\partial y}\cos(\mathbf{e,j}) \right)\\
+	&=\mu\left(\frac{\partial \mathbf{v}}{\partial x}\frac{1}{\sqrt{2}}+\frac{\partial \mathbf{v}}{\partial y}\frac{1}{\sqrt{2}} \right)\\
+	&=\frac{\mu}{\sqrt{2}} \left(\begin{pmatrix}
+	0\\
+	c
+	\end{pmatrix}+\begin{pmatrix}
+	c\\
+	0
+	\end{pmatrix}
+	\right)\\
+	&=\frac{c\mu}{\sqrt{2}} \begin{pmatrix}
+	1\\
+	1
+	\end{pmatrix}
+	\end{align}
+	\item
+	\begin{align}
+	2\sigma l=\rho g h l w\\
+	\Rightarrow h=\frac{2\sigma}{\rho gw}
+	\end{align}
+	$\sigma=0.123(1-0.00139T)$
+	so \\$h=9.37mm$
+	\item
+	\begin{equation}
+	\sigma=0.025N/m
+	\end{equation}
+	\begin{align}
+	2\pi r\sigma=\Delta p \pi r^2\\
+	\Rightarrow \Delta p=\frac{2\sigma}{r}\\
+	\Rightarrow \Delta p=25 Pa
+	\end{align}
+	
+	
+\end{enumerate}
+
+
+\section{L2}
+
+	\begin{enumerate}%[label=\arabic*)]
+		\item
+		(1)
+		\begin{align}
+		\left \{
+		\begin{aligned}
+		\frac{dp}{dr}=f=\rho a\\
+		a=kr\\
+		kR=g
+		\end{aligned}
+		\right .
+		\end{align}
+		$\Rightarrow$
+		\begin{align}
+		\frac{dp}{dr}=\frac{\rho gr}{R}
+		\end{align}
+		$\Rightarrow$
+		\begin{align}
+		p=\frac{\rho gr^2}{2R}+p_{atm}
+		\end{align}
+		so
+		\begin{align}
+		p|_{r=R}&=\frac{\rho gR}{2}+p_{atm}\\
+		&\approx \frac{\rho gR}{2}\\
+		&=176 Mpa
+		\end{align}
+		
+		
+		\item 
+		(2)
+		\begin{align}
+		\rho g \Delta h=\Delta p\\
+		\Rightarrow \Delta h=\frac{\Delta p}{\rho g}
+		\end{align}	
+		$\Rightarrow$
+		\begin{align}
+		\Delta h_{water}=10.33m\\
+		\Delta h_{sea}=\Delta h_{water}/1.025=10.08m\\
+		\Delta h_{Hg}=\Delta h_{water}/13.6=0.8m	
+		\end{align}
+		
+		\item
+		(3)
+		let Hg,water,oil denoted by "$H,w,o$" respectively 
+		\begin{align}
+		p_A+\rho_ogh_o+\rho_wgh_w=p_{atm}+\rho_Hgh_H\\
+		\Rightarrow p_A-p_{atm}=g(\rho_Hh_H-\rho_oh_o-\rho_wh_w)\\
+		\end{align}
+		
+		\item
+		(4)
+		the resultant accelaration is gravity and inertial
+		\begin{align}
+		\mathbf{r}=\mathbf{g-a}
+		\end{align}
+		now the isobars and the direction of the pressure gradient is depict as follow
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.5\linewidth]{figs/baloon}
+			\caption{the balloon}
+			\label{fig:baloon}
+		\end{figure}
+		
+		\item
+		(8)
+		\begin{align}
+		F&=\rho g \bar{y} A=369.8 kN
+		\end{align}
+		
+	\end{enumerate}
+
+\section{L3-L4}
+\begin{enumerate}
+
+	\item 
+	since
+	\begin{equation}
+	\mathbf{r}=\mathbf{f}(\mathbf{c},t)=\mathbf{g}(\mathbf{c})h(t)
+	\end{equation}
+	$\Rightarrow$
+	\begin{align}
+	\mathbf{g}(\mathbf{c})=\frac{\mathbf{r}}{ h(t)}
+	\end{align}
+	$\Rightarrow$
+	\begin{align}
+		\mathbf{c}=\mathbf{g}^{-1}(\frac{\mathbf{r}}{ h(t)})
+	\end{align}
+	so
+	\begin{align}
+	\mathbf{v}&=\frac{\partial{\mathbf{r}}}{\partial t}\\
+				&=\mathbf{g}(\mathbf{c})\dot{h}(t)\\
+				&=\mathbf{g}(\mathbf{\mathbf{g}^{-1}(\frac{\mathbf{r}}{ h(t)})})\dot{h}(t)
+	\end{align}
+	
+	\item 
+	\begin{align}
+	g(c)=c\\
+	h(t)=t^2
+	\end{align}
+	and it is easy to find
+	\begin{equation}
+	g^{-1}(c)=c
+	\end{equation}
+	\begin{align}
+	v&=g(g^{-1}(\frac{x}{h(t)}))\dot{h}(t)\\
+	&=g^{-1}(\frac{x}{h(t)})\dot{h}(t)\\
+		&=\frac{x}{h(t)}\dot{h}(t)\\
+		&=2t\frac{x}{t^2}\\
+		&=2\frac{x}{t}\\
+	\end{align}
+	
+	
+	\item
+	at time $t$ the $c$th element is at $f(c,t)$ ,
+	so the temperature of the $c$th element is
+	\begin{align}
+	T=g(f(c,t),t)
+	\end{align}
+	so the variation rate is
+	\begin{align}
+	\frac{dT}{dt}&=\frac{\partial g}{\partial x}\frac{df}{dt}+\frac{\partial g}{\partial t}
+	\end{align}
+	
+	\item
+	\begin{align}
+	\left \{
+	\begin{aligned}
+		\frac{dx}{dt}=\frac{x}{1+t}\\
+		\frac{dy}{dt}=\frac{2y}{2+t}
+	\end{aligned}
+	\right .
+	\end{align}
+	$\Rightarrow$	
+		\begin{align}
+		\left \{
+		\begin{aligned}
+			x=c_x(1+t)\\
+			y=c_y(2+t)^2
+		\end{aligned}
+		\right .
+		\end{align}
+	with the boundary condition
+	\begin{align}
+	\mathbf{x}(0)=\mathbf{x}_0
+	\end{align}
+	the path line through $\mathbf{x}_0$ is	
+		\begin{align}
+		\left \{
+		\begin{aligned}
+		x=x_0(1+t)\\
+		y=\frac{y_0}{4}(2+t)^2
+		\end{aligned}
+		\right .
+		\end{align}
+		
+		and the streamlines at $t=0$ is
+	\begin{align}
+	\left \{
+	\begin{aligned}
+	x=c_x\\
+	y=2c_y
+	\end{aligned}
+	\right .
+	\end{align}
+		$\Rightarrow$
+		\begin{eqnarray}
+		y=2\frac{c_y}{c_x}x
+		\end{eqnarray}
+		
+		\item
+		\begin{align}
+		\frac{\partial \rho}{\partial t}+\frac{\partial (\rho u)}{\partial x}=0
+		\end{align}
+		since
+		\begin{equation}
+		\rho=\rho_0(2-\cos\omega t)
+		\end{equation}
+		$\Rightarrow$
+		\begin{align}
+		\frac{\partial u}{\partial x}&=-\frac{\partial \rho}{\rho\partial t }\\
+		&=\frac{\omega \sin \omega t }{\cos\omega t -2 }\\
+		&:=f(t)
+		\end{align}
+		$\Rightarrow$
+		\begin{align}
+		u&=\int f(t) dx\\
+		 &=f(t)x+C
+		\end{align}
+		apply the boundary condition$u(0,t)=U$
+		\begin{equation}
+		u=f(t)x+U
+		\end{equation}
+		
+		\item
+		df\\
+		\begin{center}
+		\includegraphics[width=0.9\linewidth]{figs/4-12}
+		\end{center}
+
+
+
+		
+		\item
+		df
+		\item
+		mass conservation
+		\begin{align}
+		&\frac{\partial (\rho \delta v)}{\partial t}+\frac{\partial(\rho u h)}{\partial x}\delta x=0\\
+		\Rightarrow&\frac{\partial (\rho h \delta x)}{\partial t}+\frac{\partial(\rho u h)}{\partial x}\delta x=0\\
+		\Rightarrow&\frac{\partial  h}{\partial t}+\frac{\partial( u h)}{\partial x}=0
+		\end{align}
+		momentum conservation
+			\begin{align}
+			&\frac{\partial (\rho u \delta v)}{\partial t}+\frac{\partial(\rho u^2 h+p)}{\partial x}\delta x=0\\
+			\Rightarrow			&\frac{\partial (\rho u h)}{\partial t}+\frac{\partial(\rho u^2 h+p)}{\partial x}=0
+			\end{align}
+		the total force $p$ due to pressure is
+		\begin{equation}
+		p=\int_0^h \rho g y dy=\frac{1}{2}\rho g h^2
+		\end{equation} 
+		so the momentum equation is
+		\begin{align}
+	&\frac{\partial (\rho u h)}{\partial t}+\frac{\partial(\rho u^2 h+\frac{1}{2}\rho g h)}{\partial x}=0\\
+	\Rightarrow	&=\frac{\partial ( u h)}{\partial t}+\frac{\partial( u^2 h+\frac{1}{2} g h)}{\partial x}=0
+		\end{align}
+		
+\end{enumerate}
+\end{document}
