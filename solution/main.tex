@@ -77,6 +77,7 @@
 	1
 	\end{pmatrix}
 	\end{align}
+	
 	\item
 	\begin{align}
 	2\sigma l=\rho g h l w\\
@@ -84,17 +85,67 @@
 	\end{align}
 	$\sigma=0.123(1-0.00139T)$
 	so \\$h=9.37mm$
+	
 	\item
 	\begin{equation}
 	\sigma=0.025N/m
 	\end{equation}
 	\begin{align}
-	2\pi r\sigma=\Delta p \pi r^2\\
-	\Rightarrow \Delta p=\frac{2\sigma}{r}\\
-	\Rightarrow \Delta p=25 Pa
+	2\cdot 	2\pi r\sigma=\Delta p \pi r^2\\
+	\Rightarrow \Delta p=\frac{4\sigma}{r}\\
+	\Rightarrow \Delta p=50 Pa
+	\end{align}
+	
+	\item 
+	$\rho =996kg/m^3,h=1mm$
+	\begin{align}
+				&\pi \frac{d^2}{4}\rho gh=\sigma \pi d\\
+	\Rightarrow	&d=\frac{4\sigma}{\rho gh}=2.989 cm\\
 	\end{align}
 	
 	
+	\item
+	\begin{align}
+	t=\frac{D_c-D_r}{2}=0.01cm
+\end{align}
+\begin{eqnarray}
+	F&=&\tau A\\
+	&=&\tau \pi D_r L\\
+	&=&\mu\frac{v}{t}\pi D_r L\\
+	&=& \frac{0.85\times 1000\times 3.7\times 10^{-4} \times 0.15\times 0.3602 \times 3.14\times \pi}{1\times10^{-4}}\\
+	&=& 1676\text{N}
+\end{eqnarray}
+	
+	
+	\item
+	\begin{equation}
+	G=F
+	\end{equation}
+	
+	\begin{align}
+	mg&=\tau A\\
+	&=\mu \frac{v}{t}A\\
+	&=\mu \frac{v}{t}\pi D_rL
+	\end{align}
+	
+	
+	\item
+	\begin{align}
+	dM&=rdF\\
+		&=r\tau dA
+	\end{align}
+	
+	\begin{align}
+	\tau=\mu\frac{v}{t}=\mu\frac{\omega r}{t}\\
+	dA=2\pi r\cdot rdx\\
+	r=x\sin \alpha
+	\end{align}
+	
+	$\Rightarrow$
+	\begin{align}
+	M&=\int_0^{D/2}r\mu\frac{r\omega}{h}2\pi r \frac{dr}{\sin \alpha}\\
+	&=\frac{\pi\mu\omega D^4}{32h\sin\alpha}
+	\end{align}
 \end{enumerate}
 
 
@@ -102,7 +153,7 @@
 
 	\begin{enumerate}%[label=\arabic*)]
 		\item
-		(1)
+
 		\begin{align}
 		\left \{
 		\begin{aligned}
@@ -129,7 +180,7 @@
 		
 		
 		\item 
-		(2)
+
 		\begin{align}
 		\rho g \Delta h=\Delta p\\
 		\Rightarrow \Delta h=\frac{\Delta p}{\rho g}
@@ -142,7 +193,7 @@
 		\end{align}
 		
 		\item
-		(3)
+
 		let Hg,water,oil denoted by "$H,w,o$" respectively 
 		\begin{align}
 		p_A+\rho_ogh_o+\rho_wgh_w=p_{atm}+\rho_Hgh_H\\
@@ -150,7 +201,7 @@
 		\end{align}
 		
 		\item
-		(4)
+
 		the resultant accelaration is gravity and inertial
 		\begin{align}
 		\mathbf{r}=\mathbf{g-a}
@@ -162,13 +213,121 @@
 			\caption{the balloon}
 			\label{fig:baloon}
 		\end{figure}
-		
 		\item
-		(8)
 		\begin{align}
-		F&=\rho g \bar{y} A=369.8 kN
+		dF_y&=p_ydA
 		\end{align}
+		\begin{align}
+		\left \{
+		\begin{aligned}
+		&dA=2\pi r' rd\theta\\
+		&r'=r\sin \theta\\
+		&p_y=p\cos \theta\\
+		&p=\rho gh'\\
+		&h'=h-r\cos \alpha+r\cos\theta
+		\end{aligned}
+		\right .
+		\end{align}
+	
+	$\Rightarrow$
+	\begin{align}
+	dF_y&=\rho g(h-r\cos \alpha +r\cos \theta) \cos \theta 2\pi r \sin \theta rd\theta\\
+	&=2\pi \rho g r^2(h-r\cos\alpha +r\cos \theta)\sin \theta \cos\theta d\theta
+	\end{align}
+	
+	\begin{align}
+	F_y=& 2\pi \rho g r^2 \int_\alpha ^\pi (h-r\cos\alpha+r\cos\theta)\sin\theta\cos\theta\,d\theta\\
+	\end{align}
+	
+	let$F_y(h)=0$, comes the requiring
+	\begin{equation}
+	h=\frac{2r}{3\sin^2\alpha}+\frac{2r\cos^3\alpha}{3\sin^2\alpha}+r\cos\alpha
+	\end{equation}
+	
+	
+	
+	
+	
+	\item
+	\begin{align}
+	\left \{
+		\begin{aligned}
+		F=\rho g h A\\
+		A=\pi r^2
+		\end{aligned}
+	\right .
+	\end{align}
+	and the acting point is
+	\begin{equation}
+	\Delta y_a=\frac{I_{yy}}{hA}=\frac{\pi r^2}{4hA}
+	\end{equation}
+	
+	the momentum equilibrium
+	\begin{equation}
+	F\Delta y_a=Pr
+	\end{equation}
+	
+	$\Rightarrow$
+	\begin{align}
+	P&=\frac{F\Delta y_a}{r}\\
+	&=\frac{\rho g \pi r}{4}\\
+	&=7.7 kN
+	\end{align}
+	
+	
+	\item
+	\begin{align}
+	F_p=\rho g \bar{h} A\\
+	A=lw
+	\end{align}
+	
+	\begin{align}
+	\Delta y_a = \frac{I_{yy}}{y_c A}\\
+	I_{yy}=\frac{l^3w}{12}
+	\end{align}
+	
+	\begin{align}
+	\tau w l_{c}=F_p \Delta y_a
+	\end{align}
+	$\Rightarrow$
+	\begin{align}
+	\tau &=\frac{F_p\Delta y_a}{wl_c}\\
+		&=145.2kN
+	\end{align}
+	
+
+
+	
 		
+		
+			\item
+			\begin{align}
+			F=\rho g \bar{h} A=10^{10} N\\
+			y_a=\frac{2}{3}h=85.3m
+			\end{align}
+			
+			
+			\item 
+			
+			$$F_{up}=F_{down}$$
+			$$F+\rho_w g x\left (\frac{4}{3}\pi R^3 \right )=rg\left (\frac{4}{3}\pi R^3 \right )$$
+			$$x=\frac{rg\left (\frac{4}{3}\pi R^3 \right )-F}{\rho_w g \left (\frac{4}{3}\pi R^3 \right )}$$
+			
+			
+			\item
+			\begin{align}
+						&	&\rho_s v_s=\rho_l v_l\\
+			\Rightarrow&	&\frac{v_l}{v_s}=\frac{\rho_s}{\rho_l}\\
+			\end{align}
+			
+			\begin{align}
+					&	&S=v_s-v_l\\
+		\Rightarrow&	&\frac{1}{2}LL\tan \theta=v_s-v_l=0.1L^2\\
+		\Rightarrow&	&\tan \theta =0.2
+			\end{align}
+			
+			
+			
 	\end{enumerate}
 
 \section{L3-L4}
