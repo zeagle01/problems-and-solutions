@@ -1,2 +1,4 @@
-main.*
-~$.*
+problems\main.*
+problems\~$.*
+solution\main.*
+solution\~$.*
