@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  11 OCT 2016 13:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  13 OCT 2016 16:08
 entering extended mode
 **main.tex
 
@@ -596,14 +596,14 @@ Package pdftex.def Info: figs/baloon.jpg used on input line 217.
 (pdftex.def)             Requested size: 172.5pt x 229.99933pt.
  [5 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
 mena/problems and solutions/solution/figs/baloon.jpg>] [6] [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
 <figs/4-12.jpg, id=76, 414.79968pt x 251.43938pt>
 File: figs/4-12.jpg Graphic file (type jpg)
  <use figs/4-12.jpg>
-Package pdftex.def Info: figs/4-12.jpg used on input line 463.
+Package pdftex.def Info: figs/4-12.jpg used on input line 473.
 (pdftex.def)             Requested size: 287.99802pt x 174.58295pt.
  [10]
 [11 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
@@ -644,7 +644,7 @@ pe1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsl10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy7.pfb>
-Output written on main.pdf (11 pages, 421699 bytes).
+Output written on main.pdf (11 pages, 422475 bytes).
 PDF statistics:
  222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
