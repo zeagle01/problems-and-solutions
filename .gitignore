@@ -1,4 +1,12 @@
-problems\main.*
-problems\~$.*
-solution\main.*
-solution\~$.*
+
+problems/main.synctex.gz
+problems/main.log
+problems/main.pdf
+problems/main.aux
+problems/main.pre
+
+solution/main.synctex.gz
+solution/main.log
+solution/main.pdf
+solution/main.aux
+solution/main.pre
