@@ -175,7 +175,7 @@
 		\begin{align}
 		p|_{r=R}&=\frac{\rho gR}{2}+p_{atm}\\
 		&\approx \frac{\rho gR}{2}\\
-		&=176 Mpa
+		&=176 kMpa
 		\end{align}
 		
 		
@@ -189,7 +189,7 @@
 		\begin{align}
 		\Delta h_{water}=10.33m\\
 		\Delta h_{sea}=\Delta h_{water}/1.025=10.08m\\
-		\Delta h_{Hg}=\Delta h_{water}/13.6=0.8m	
+		\Delta h_{Hg}=\Delta h_{water}/13.6=0.76m	
 		\end{align}
 		
 		\item
@@ -201,7 +201,7 @@
 		\end{align}
 		$\Rightarrow$
 		\begin{align}
-		p_A=588 pa
+		p_A=588.6 pa
 		\end{align}
 		
 		
@@ -244,6 +244,16 @@
 	F_y=& 2\pi \rho g r^2 \int_\alpha ^\pi (h-r\cos\alpha+r\cos\theta)\sin\theta\cos\theta\,d\theta\\
 	\end{align}
 	
+	altanitive solution:
+	\begin{align}
+	F_y+F_D=\rho g V
+	\end{align}
+	\begin{align}
+	F_D=\rho g S_Dh=\rho g\cdot\pi(\frac{D}{2})^2 \cdot h\\
+	V=V_0-\frac{\pi}{3}(3r-l)l^2\\
+	l=r-\sqrt{r^2-(\frac{D}{2})^2}
+	\end{align}
+	
 	let$F_y(h)=0$, comes the requiring
 	\begin{equation}
 	h=\frac{2r}{3\sin^2\alpha}+\frac{2r\cos^3\alpha}{3\sin^2\alpha}+r\cos\alpha
@@ -264,7 +274,7 @@
 	\end{align}
 	and the acting point is
 	\begin{equation}
-	\Delta y_a=\frac{I_{yy}}{hA}=\frac{\pi r^2}{4hA}
+	\Delta y_a=\frac{I_{xx}}{hA}=\frac{\pi r^2}{4hA}
 	\end{equation}
 	
 	the momentum equilibrium
@@ -287,8 +297,8 @@
 	\end{align}
 	
 	\begin{align}
-	\Delta y_a = \frac{I_{yy}}{y_c A}\\
-	I_{yy}=\frac{l^3w}{12}
+	\Delta y_a = \frac{I_{xx}}{y_c A}\\
+	I_{xx}=\frac{l^3w}{12}
 	\end{align}
 	
 	\begin{align}
