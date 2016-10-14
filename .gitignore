@@ -2,6 +2,7 @@
 problems/main.*
 !problems/main.tex
 
+.*\~\$.*
 
 solution/main.*
 !solution/main.tex
