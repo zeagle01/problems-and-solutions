@@ -1,10 +1,12 @@
 
 problems/main.*
-!problems/main.tex
+problems/main((?!\.tex).)*
+#!problems/main.tex
 
 .*\~\$.*
 
 solution/main.*
-!solution/main.tex
+#!solution/main.tex
+solution/main((?!\.tex).)*
 
 
