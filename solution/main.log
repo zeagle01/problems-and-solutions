@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  15 OCT 2016 00:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  16 OCT 2016 23:02
 entering extended mode
 **main.tex
 
@@ -593,40 +593,49 @@ File: figs/baloon.jpg Graphic file (type jpg)
 Package pdftex.def Info: figs/baloon.jpg used on input line 217.
 (pdftex.def)             Requested size: 172.5pt x 229.99933pt.
  [5 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/sol
-ution/figs/baloon.jpg>] [6] [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+ution/figs/baloon.jpg>]
+<"../problems/figs/beach ball variables".jpg, id=63, 963.6pt x 1284.8pt>
+File: "../problems/figs/beach ball variables".jpg Graphic file (type jpg)
+
+<use "../problems/figs/beach ball variables".jpg>
+Package pdftex.def Info: "../problems/figs/beach ball variables".jpg used on in
+put line 264.
+(pdftex.def)             Requested size: 159.99998pt x 213.31595pt.
+ [6] [7 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA
+/problems/figs/beach ball variables.jpg>] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
-<figs/4-12.jpg, id=76, 414.79968pt x 251.43938pt>
+<figs/4-12.jpg, id=80, 414.79968pt x 251.43938pt>
 File: figs/4-12.jpg Graphic file (type jpg)
  <use figs/4-12.jpg>
-Package pdftex.def Info: figs/4-12.jpg used on input line 473.
+Package pdftex.def Info: figs/4-12.jpg used on input line 493.
 (pdftex.def)             Requested size: 287.99802pt x 174.58295pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
 
-[11 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/sol
+[12 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/sol
 ution/figs/4-12.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
-[12]
+[13]
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\soluti
 on\main.aux") ) 
 Here is how much of TeX's memory you used:
- 10933 strings out of 494045
- 176535 string characters out of 3148017
+ 10939 strings out of 494045
+ 176769 string characters out of 3148017
  217382 words of memory out of 3000000
- 13967 multiletter control sequences out of 15000+200000
+ 13971 multiletter control sequences out of 15000+200000
  22239 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,15n,38p,825b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -655,9 +664,9 @@ fonts/cm/cmr17.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
 ><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/Pr
 ogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program F
 iles/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (12 pages, 424942 bytes).
+Output written on main.pdf (13 pages, 447716 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
+ 230 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

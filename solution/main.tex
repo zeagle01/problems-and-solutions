@@ -243,22 +243,41 @@
 	\begin{align}
 	F_y=& 2\pi \rho g r^2 \int_\alpha ^\pi (h-r\cos\alpha+r\cos\theta)\sin\theta\cos\theta\,d\theta\\
 	\end{align}
+		\begin{equation}
+		h=\frac{2r}{3\sin^2\alpha}+\frac{2r\cos^3\alpha}{3\sin^2\alpha}+r\cos\alpha
+		\end{equation}
+	where $\cos\alpha=\frac{D}{2r}$
 	
 	altanitive solution:
 	\begin{align}
 	F_y+F_D=\rho g V
 	\end{align}
 	\begin{align}
-	F_D=\rho g S_Dh=\rho g\cdot\pi(\frac{D}{2})^2 \cdot h\\
-	V=V_0-\frac{\pi}{3}(3r-l)l^2\\
-	l=r-\sqrt{r^2-(\frac{D}{2})^2}
+	F_D=\rho g S_Dh=\rho g\cdot\pi r'^2 \cdot h\\
+	r'=\frac{D}{2}\\
+	V=V_a-V_b\\
+	V_b=\frac{\pi}{3}(3r-l)l^2\\
+	l=r-d\\
+	d=\sqrt{r^2-r'^2}
 	\end{align}
-	
+	\begin{center}
+\includegraphics[width=0.5\linewidth]{"../problems/figs/beach ball variables"}
+\end{center}
+
 	let$F_y(h)=0$, comes the requiring
-	\begin{equation}
-	h=\frac{2r}{3\sin^2\alpha}+\frac{2r\cos^3\alpha}{3\sin^2\alpha}+r\cos\alpha
-	\end{equation}
 	
+		\begin{align}
+		h&=V/S_D\\
+		&=\frac{V_a-V_b}{\pi r'^2}\\
+		&=\frac{\frac{4}{3}\pi r^3-\frac{\pi}{3}(3r-l)l^2}{\pi r'^2}\\
+		&=\frac{4r^3-(2r+d)(r-d)^2}{3r'^2}\\
+		&=\frac{4}{3}\frac{4r^3-(2r-d)(r-d)^2}{D^2}
+		\end{align}
+where $d=\sqrt{r^2-(\frac{D}{2})^2}$		
+		
+
+	
+
 	
 	
 	
@@ -429,18 +448,19 @@
 		\right .
 		\end{align}
 		
-		and the streamlines at $t=0$ is
+		and the streamlines at $t=0$ can be obtained by let $t=0$
+		
 	\begin{align}
 	\left \{
 	\begin{aligned}
-	x=c_x\\
-	y=2c_y
+		\frac{dx}{dt}=x\\
+		\frac{dy}{dt}=y
 	\end{aligned}
 	\right .
 	\end{align}
 		$\Rightarrow$
 		\begin{eqnarray}
-		y=2\frac{c_y}{c_x}x
+		y=cx
 		\end{eqnarray}
 		
 		\item
