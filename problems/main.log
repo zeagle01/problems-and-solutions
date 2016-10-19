@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  14 OCT 2016 14:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  19 OCT 2016 21:53
 entering extended mode
 **main.tex
 
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\problems\main.tex"
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\proble
+ms\main.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -438,14 +438,13 @@ Package: subcaption 2011/10/30 v1.1c Sub-captions (AR)
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\asymptote.sty"
 Package: asymptote 2015/05/10 v1.29 Asymptote style file for LaTeX
 
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\problems\main.pre")
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\proble
+ms\main.pre")
 \ASYbox=\box38
 \c@asy=\count183
 \AsyStream=\write3
 \AsyPreStream=\write4
-
-("D:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
+ ("D:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\catchfile.sty"
@@ -463,8 +462,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\problems\main.aux")
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\proble
+ms\main.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -543,8 +542,7 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-
-("D:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
+ ("D:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count184
 \scratchdimen=\dimen156
@@ -593,9 +591,9 @@ ine 26.
 (pdftex.def)             Requested size: 223.999pt x 210.51772pt.
  [1
 
- <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport phenomen
-a/problems and solutions/problems/figs/density at different scales.jpg>]
-<"figs/strain illustrate".jpg, id=13, 627.84563pt x 345.54094pt>
+ <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/proble
+ms/figs/density at different scales.jpg>] <"figs/strain illustrate".jpg, id=13,
+ 627.84563pt x 345.54094pt>
 File: "figs/strain illustrate".jpg Graphic file (type jpg)
 
 <use "figs/strain illustrate".jpg>
@@ -611,10 +609,9 @@ ine 42.
 (pdftex.def)             Requested size: 223.999pt x 77.38188pt.
 Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
  family 'def' instead. on input line 72.
- [2 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/problems/figs/strain illustrate.jpg> <D:/roming vau
-lt/Log/life/jobs/南科大/传输现象助教/transport phenomena/problems and 
-solutions/problems/figs/paraloid profile at channel.jpg>]
+ [2 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pro
+blems/figs/strain illustrate.jpg> <D:/roming vault/Log/life/jobs/南科大/传�
+��现象助教/transfer-TA/problems/figs/paraloid profile at channel.jpg>]
 Overfull \hbox (5.18858pt too wide) in paragraph at lines 75--76
 []\OT1/cmr/m/n/10.54 Determine the di-am-e-ter of the glass tube nec-es-sary to
  keep the capillary-
@@ -634,9 +631,9 @@ File: "figs/What is the pressure".jpg Graphic file (type jpg)
 Package pdftex.def Info: "figs/What is the pressure".jpg used on input line 103
 .
 (pdftex.def)             Requested size: 223.999pt x 165.42558pt.
- [4 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/problems/figs/conical pivot.jpg>] <"figs/baloon car
-".jpg, id=31, 341.02406pt x 181.42781pt>
+ [4 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pro
+blems/figs/conical pivot.jpg>]
+<"figs/baloon car".jpg, id=31, 341.02406pt x 181.42781pt>
 File: "figs/baloon car".jpg Graphic file (type jpg)
 
 <use "figs/baloon car".jpg>
@@ -649,18 +646,17 @@ File: "figs/beach ball pool".jpg Graphic file (type jpg)
 <use "figs/beach ball pool".jpg>
 Package pdftex.def Info: "figs/beach ball pool".jpg used on input line 117.
 (pdftex.def)             Requested size: 223.999pt x 167.11691pt.
- [5 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/problems/figs/What is the pressure.jpg> <D:/roming 
-vault/Log/life/jobs/南科大/传输现象助教/transport phenomena/problems a
-nd solutions/problems/figs/baloon car.jpg>]
-<"figs/the circular gate".jpg, id=37, 153.57375pt x 248.42813pt>
+ [5 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pro
+blems/figs/What is the pressure.jpg> <D:/roming vault/Log/life/jobs/南科大/�
+��输现象助教/transfer-TA/problems/figs/baloon car.jpg>] <"figs/the circula
+r gate".jpg, id=37, 153.57375pt x 248.42813pt>
 File: "figs/the circular gate".jpg Graphic file (type jpg)
 
 <use "figs/the circular gate".jpg>
 Package pdftex.def Info: "figs/the circular gate".jpg used on input line 124.
 (pdftex.def)             Requested size: 223.999pt x 362.37605pt.
- [6 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/problems/figs/beach ball pool.jpg>]
+ [6 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pro
+blems/figs/beach ball pool.jpg>]
 <"figs/open triangular channel".jpg, id=41, 269.50688pt x 166.37157pt>
 File: "figs/open triangular channel".jpg Graphic file (type jpg)
 
@@ -668,8 +664,8 @@ File: "figs/open triangular channel".jpg Graphic file (type jpg)
 Package pdftex.def Info: "figs/open triangular channel".jpg used on input line 
 132.
 (pdftex.def)             Requested size: 223.999pt x 138.28128pt.
- [7 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/problems/figs/the circular gate.jpg>]
+ [7 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pro
+blems/figs/the circular gate.jpg>]
 <"figs/inclined dam".jpg, id=46, 257.46187pt x 167.12437pt>
 File: "figs/inclined dam".jpg Graphic file (type jpg)
 
@@ -684,46 +680,62 @@ File: "figs/a cubic piece of wood".jpg Graphic file (type jpg)
 Package pdftex.def Info: "figs/a cubic piece of wood".jpg used on input line 15
 3.
 (pdftex.def)             Requested size: 223.999pt x 112.00374pt.
- [8 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport pheno
-mena/problems and solutions/problems/figs/open triangular channel.jpg> <D:/romi
-ng vault/Log/life/jobs/南科大/传输现象助教/transport phenomena/problem
-s and solutions/problems/figs/inclined dam.jpg>] [9 <D:/roming vault/Log/life/j
-obs/南科大/传输现象助教/transport phenomena/problems and solutions/pro
-blems/figs/a cubic piece of wood.jpg>]
+ [8 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pro
+blems/figs/open triangular channel.jpg> <D:/roming vault/Log/life/jobs/南科�
+�/传输现象助教/transfer-TA/problems/figs/inclined dam.jpg>] [9 <D:/roming
+ vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/problems/figs/a c
+ubic piece of wood.jpg>]
 <"figs/James 5-1".jpg, id=56, 563.85657pt x 249.18094pt>
 File: "figs/James 5-1".jpg Graphic file (type jpg)
 
 <use "figs/James 5-1".jpg>
 Package pdftex.def Info: "figs/James 5-1".jpg used on input line 224.
 (pdftex.def)             Requested size: 241.49895pt x 106.72366pt.
- [10 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transport phen
-omena/problems and solutions/problems/figs/James 5-1.jpg>] [11]
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transport phenomen
-a\problems and solutions\problems\main.aux") ) 
+ [10 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pr
+oblems/figs/James 5-1.jpg>]
+<"figs/the siphon can transport".jpg, id=61, 421.575pt x 188.20313pt>
+File: "figs/the siphon can transport".jpg Graphic file (type jpg)
+
+<use "figs/the siphon can transport".jpg>
+Package pdftex.def Info: "figs/the siphon can transport".jpg used on input line
+ 265.
+(pdftex.def)             Requested size: 223.999pt x 99.99988pt.
+ [11 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pr
+oblems/figs/the siphon can transport.jpg>] <"figs/A fan draws air".jpg, id=67, 
+377.15906pt x 182.93344pt>
+File: "figs/A fan draws air".jpg Graphic file (type jpg)
+
+<use "figs/A fan draws air".jpg>
+Package pdftex.def Info: "figs/A fan draws air".jpg used on input line 271.
+(pdftex.def)             Requested size: 223.999pt x 108.64436pt.
+ [12 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pr
+oblems/figs/A fan draws air.jpg>] [13]
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\proble
+ms\main.aux") ) 
 Here is how much of TeX's memory you used:
- 10863 strings out of 494045
- 176541 string characters out of 3148017
+ 10876 strings out of 494045
+ 176650 string characters out of 3148017
  212378 words of memory out of 3000000
- 13913 multiletter control sequences out of 15000+200000
+ 13924 multiletter control sequences out of 15000+200000
  14460 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,10n,39p,825b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/WINDOWS/Fonts/simsun.ttc><C:/
-WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
-ttc><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:
-/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Progra
-m Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/
-CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files/CTEX/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/CTEX/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr17.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><
-D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (11 pages, 391703 bytes).
+<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WI
+NDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><D:/Program Files/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Prog
+ram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program File
+s/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/Program Files/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (13 pages, 438397 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
