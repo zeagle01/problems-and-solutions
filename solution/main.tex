@@ -1,7 +1,7 @@
 \documentclass{ctexart}
 \author{}
 \date{2016.9.27}
-\title{solutions to transportation problems}
+\title{solutions}
 \bibliographystyle{plain}
 \newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
 \usepackage{amsmath}
@@ -59,6 +59,8 @@
 	c
 	\end{pmatrix}
 	\end{align}
+	
+	(what follows is beyond the scope of the lecture)
 	let $\mathbf{e=\frac{j+i}{\sqrt{2}}}$,
 	\begin{align}
 	\tau_{xy}&=\mu\frac{\partial \mathbf{v}}{\partial e}\\
@@ -201,7 +203,7 @@
 		\end{align}
 		$\Rightarrow$
 		\begin{align}
-		p_A=588.6 pa
+		p_A-p_{atm}=588.6 pa
 		\end{align}
 		
 		
@@ -361,6 +363,50 @@ where $d=\sqrt{r^2-(\frac{D}{2})^2}$
 			\end{align}
 			
 			
+		solution 1:
+			\begin{align}
+			\cos \theta =\frac{1}{\sqrt{1+\tan \theta ^2}}=0.9615\\
+			h_1=0.5\cdot 1\cdot \cos \theta=0.49\\
+			h_2=0.5\cdot 0.8\cdot \cos \theta=0.39\\
+			h_3=0.5\cdot (1+0.8)\cdot \cos \theta=0.88\\
+			\rho=1000\\
+			g=9.8\\
+			A_1=1,A_2=0.8,A_3=1\\
+			F_1=\rho gh_1A_1=4804.8\\
+			F_2=\rho gh_2A_2=3075.1\\
+			F_3=\rho gh_3A_3=8648.7\\
+			l_1=\frac{1}{2}-\frac{1}{3}\\
+			l_2=\frac{1}{2}-0.8\cdot\frac{1}{3}\\
+			I_3=\frac{1}{12}\\
+			y_3=\frac{1+0.8}{2\tan \theta}\\
+			l_3=\frac{I_3}{y_3A_3}\\	
+			M_1=F_1l_1=800.8\\
+			M_2=F_2l_2=717.52\\
+			M_3=F_3l_3=160.16\\
+			M=M_2+M_3-M_1=76.88	
+			\end{align}
+		solution 2:
+\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/L2-10 lecture mothod"}
+\end{center}
+	\begin{align}
+	KB=0.9/2\\
+	KG=0.5\\
+	I_{oy}=\frac{1}{12}\\
+	V_s=0.9\\
+	BM=\frac{I_{oy}}{V_s}\\
+	GM=KB+BM-KG\\
+	\sin \theta =\frac{\tan \theta}{\sqrt{1+\tan \theta ^2}}\\
+	l=GM \sin \theta\\
+	\rho_c=900\\
+	M=Gl=\rho_c g V l=73.67
+	\end{align}
+
+	
+			
+note: the final result of the 2 solution are different ,the reason is still remaind to be solved, you are welcomed to contribute your wisdom to find out the result 
+
+
 			
 	\end{enumerate}
 
@@ -376,34 +422,56 @@ where $d=\sqrt{r^2-(\frac{D}{2})^2}$
 	\begin{align}
 	\mathbf{g}(\mathbf{c})=\frac{\mathbf{r}}{ h(t)}
 	\end{align}
-	$\Rightarrow$
-	\begin{align}
+
+		so
+		\begin{align}
+		\mathbf{v}&=\frac{\partial{\mathbf{r}}}{\partial t}\\
+		&=\mathbf{g}(\mathbf{c})\dot{h}(t)\\
+		&=\frac{\mathbf{r}}{ h(t)}\dot{h}(t) \label{eq:l2e}
+		\end{align}
+
+
+	
+	
+	alternative:
+		\begin{align}
 		\mathbf{c}=\mathbf{g}^{-1}(\frac{\mathbf{r}}{ h(t)})
-	\end{align}
-	so
+		\end{align}
 	\begin{align}
 	\mathbf{v}&=\frac{\partial{\mathbf{r}}}{\partial t}\\
-				&=\mathbf{g}(\mathbf{c})\dot{h}(t)\\
-				&=\mathbf{g}(\mathbf{\mathbf{g}^{-1}(\frac{\mathbf{r}}{ h(t)})})\dot{h}(t)
+	&=\mathbf{g}(\mathbf{c})\dot{h}(t)\\
+	&=\mathbf{g}(\mathbf{\mathbf{g}^{-1}(\frac{\mathbf{r}}{ h(t)})})\dot{h}(t)
 	\end{align}
+	
 	
 	\item 
 	\begin{align}
 	g(c)=c\\
 	h(t)=t^2
 	\end{align}
-	and it is easy to find
+	use the result of eq.\ref{eq:l2e}
+		\begin{align}
+		v&=\frac{x}{h(t)}\dot{h}(t)\\
+		&=2t\frac{x}{t^2}\\
+		&=2\frac{x}{t}\\
+		\end{align}
+		
+
+
+	
+	
+		alternative:\\
+			and it is easy to find
 	\begin{equation}
 	g^{-1}(c)=c
 	\end{equation}
 	\begin{align}
 	v&=g(g^{-1}(\frac{x}{h(t)}))\dot{h}(t)\\
 	&=g^{-1}(\frac{x}{h(t)})\dot{h}(t)\\
-		&=\frac{x}{h(t)}\dot{h}(t)\\
-		&=2t\frac{x}{t^2}\\
-		&=2\frac{x}{t}\\
+	&=\frac{x}{h(t)}\dot{h}(t)\\
+	&=2t\frac{x}{t^2}\\
+	&=2\frac{x}{t}
 	\end{align}
-	
 	
 	\item
 	at time $t$ the $c$th element is at $f(c,t)$ ,
@@ -488,7 +556,7 @@ where $d=\sqrt{r^2-(\frac{D}{2})^2}$
 		\end{equation}
 		
 		\item
-		df\\
+		the face integrals and the volume integrals of divergence is showed below
 		\begin{center}
 		\includegraphics[width=0.9\linewidth]{figs/4-12}
 		\end{center}
@@ -523,7 +591,7 @@ where $d=\sqrt{r^2-(\frac{D}{2})^2}$
 		so the momentum equation is
 		\begin{align}
 	&\frac{\partial (\rho u h)}{\partial t}+\frac{\partial(\rho u^2 h+\frac{1}{2}\rho g h)}{\partial x}=0\\
-	\Rightarrow	&=\frac{\partial ( u h)}{\partial t}+\frac{\partial( u^2 h+\frac{1}{2} g h)}{\partial x}=0
+	\Rightarrow	&\frac{\partial ( u h)}{\partial t}+\frac{\partial( u^2 h+\frac{1}{2} g h)}{\partial x}=0
 		\end{align}
 		
 		
@@ -544,4 +612,168 @@ where $d=\sqrt{r^2-(\frac{D}{2})^2}$
 		        \end{eqnarray}
 		
 \end{enumerate}
+
+
+\section{L5-L6}
+\begin{enumerate}
+	% problem 1
+	\item 
+	\begin{enumerate}
+		\item 
+		Steady flow\\
+		Incompressible flow\\
+		Frictionless (inviscid) flow\\
+		Flow along a streamline\\
+		No shaft work\\
+		No heat transfer\\
+		（理想不可压缩流体，定常流动，只有重力作用，沿流线，无其他能量输入输出）
+		\item 
+		Venturi effect---measure the flow rate of liquids,~disperse perfume or spray paint\\
+		Pour out beer\\
+		Arteriosclerosis and vascular flutter\\
+		Why do rabbits not suffocate in the burrows ?\\
+		Why does a house lose its roof in strong wind ?\\
+		...
+	\end{enumerate}
+	
+	% problem 2
+	\item
+	\begin{enumerate}
+		\item Viscous effect: $$ p_1 + \frac{1}{2}\rho v_1^2 +\rho gz_1 = p_2 + \frac{1}{2}\rho v_2^2 +\rho gz_2 + h_f $$
+		\item Pump work: $$ p_1 + \frac{1}{2}\rho v_1^2 +\rho gz_1 = p_2 + \frac{1}{2}\rho v_2^2 +\rho gz_2 - h_s $$
+		\item Compressible fluid:
+		\begin{eqnarray*}
+			p_1 V_1^\gamma & = & p_2 V_2^\gamma \\
+			\frac{p_1}{\rho_1^\gamma} & = & \frac{p_2}{\rho_2^\gamma} \\
+			\frac{\gamma}{\gamma-1}\frac{p_1}{\rho_1} + \frac{1}{2}v_1^2 + gz_1 & = & \frac{\gamma}{\gamma-1}\frac{p_2}{\rho_2} + \frac{1}{2}v_2^2 + gz_2
+		\end{eqnarray*}
+	\end{enumerate}
+	
+	% problem 3
+	\item
+	根据虹吸管速度公式，流出虹吸管水流的速度为
+	\begin{eqnarray*}
+		V & = & \sqrt{2gL}\\
+		& = & \sqrt{2\times9.81\times3.0}\\
+		& = & 7.67 ~\mathrm{m/s}
+	\end{eqnarray*}
+	因$Q=AV=\frac{\pi}{4}d^2V$，故
+	\begin{eqnarray*}
+		d & = & \sqrt{\frac{4Q}{\pi V}}\\
+		& = & \sqrt{\frac{4\times100/3600}{3.142\times7.67}}\\
+		& = & 0.0679~\mathrm{m}
+	\end{eqnarray*}
+	最高截面处压强为
+	\begin{eqnarray*}
+		p_2 & = & p_a - \rho g z\\
+		& = & 1.0133\times10^5 - 998.2\times9.806\times6.0\\
+		& = & 42600~\mathrm{Pa}
+	\end{eqnarray*}
+	可见最高截面处的压强远大于该温度下的饱和蒸气压，水流不会在最高截面处产生气穴，虹吸管可以正常吸水。
+	
+	% problem 4
+	\item
+	\begin{enumerate}
+		\item For C.V.1
+		\begin{eqnarray*}
+			\frac{v_1^2}{2} + \frac{p_1}{\rho} + gz_1 = \frac{v_2^2}{2} + \frac{p_2}{\rho} + gz_2 \\
+			v_1 = 0 \qquad z_1 = z_2 \\
+			v_2 = \sqrt{\frac{2(p_1-p_2)}{\rho}} = 20~\mathrm{m/s} \\
+			Q = Av_2 = \frac{\pi}{4}\times0.3^2\times20 = 1.417~\mathrm{m^3/s}
+		\end{eqnarray*}
+		\item For C.V.2
+		\begin{eqnarray*}
+			\frac{v_1^2}{2} + \frac{p_1}{\rho} + gz_1 + gh_s = \frac{v_2^2}{2} + \frac{p_2}{\rho} + gz_2 \\
+			v_1 = 0 \qquad p_1 = p_2 \qquad z_1 = z_2 \\
+			gh_s = \frac{v_2^2}{2} \\
+			P_f = \rho gQh_s = \rho Q\frac{v_2^2}{2} = 1.22 \times 1.417 \times \frac{20^2}{2} = 346 ~\mathrm{W}
+		\end{eqnarray*}
+	\end{enumerate}
+	
+	% problem 5
+	\item
+	\begin{eqnarray*}
+		u_1 + gz_1 = u_2 + gz_2 \\
+		\Delta u = u_2 - u_1 = g(z_1 - z_2) = gh \\
+		\Delta T = \frac{\Delta u}{c_p} = \frac{gh}{c_p} = \frac{9.8\times165}{4184} = 0.39 ~\mathrm{K}
+	\end{eqnarray*}
+\end{enumerate}
+
+\section{L7-L8}
+\begin{enumerate}
+	
+		\item
+		(a)
+		\begin{align}
+		\bar{u}&=\frac{1}{h}\int^h_0udy\\
+				&=-\frac{\Delta p h^2}{12 \mu L}
+		\end{align}
+		\begin{align}
+		Q&=\bar{u}A\\
+		&=\bar{u} h\\
+		&=-\frac{\Delta p h^3}{12 \mu L}\\
+		\end{align}
+		(b)
+		\begin{align}
+		F_d=\tau \cdot 2L\\
+		\tau=\left . \mu \frac{\partial u}{\partial y}\right |_y=-\frac{\Delta ph}{2 L}=\frac{12\mu\bar{u}}{h^2 } \cdot \frac{h}{2L}=\frac{6\mu \bar{u}}{h}\\	
+		C_d=\frac{F_d}{\rho \bar{u}^2L}=\frac{6\mu\bar{u}\cdot 2L}{h}\frac{1}{\rho \bar{u}^2L}	=\frac{18}{Re}
+		\end{align}
+		\item
+		
+		\begin{align}
+		\nabla \cdot \mathbf{u}=0\\
+		\frac{1}{Re}\nabla^2\mathbf{u}	=\nabla p	
+		\end{align}
+		
+	
+	\item
+	\begin{align}
+	\frac{4}{3}\pi r^3 g(\rho'-\rho)=6\pi \mu r U
+	\end{align}
+	$\Rightarrow$
+	\begin{align}
+	U=\frac{2r^2g(\rho'-\rho)}{9\mu}
+	\end{align}
+	
+	\item 
+	\begin{align}
+	l=0.03d Re
+	\end{align}
+	where $Re=\frac{\rho U d}{\mu}$
+	\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/entrance effect"}
+\end{center}
+
+	
+	\item
+	
+	\begin{align}
+	Re=\frac{4\rho Q}{\pi \mu d}=10^3,10^4,10^7,10^8
+	\end{align}
+	查看穆迪图(moody diagram)得,阻力系数
+	\begin{align}
+	f=0.065,0.032,0.012,0.012
+	\end{align}
+	又由
+	\begin{align}
+	\bar{u}=\frac{4Q}{\pi d^2}=\frac{Re \pi \mu}{\rho d}
+	\end{align}
+	所以阻力
+	\begin{align}
+	F&=f \cdot \frac{1}{2}\rho \bar{u}^2L\\
+	&=f Re^2 \frac{\rho L}{2}(\frac{\pi \mu}{\rho d})^2\\
+	&=(0.065\times 10^6,0.032\times 10^8,0.012\times 10^{14},0.012 \times 10^{16})\frac{\rho L}{2}(\frac{\pi \mu}{\rho d})^2
+	\end{align}
+	
+	
+\end{enumerate}
+
+
+
+
 \end{document}
+
+
+
+

@@ -1,7 +1,7 @@
 \documentclass{ctexart}
 \author{}
 \date{2016.9.27}
-\title{transportation problems}
+\title{problems}
 \bibliographystyle{plain}
 \newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
 \usepackage{amsmath}
@@ -160,18 +160,18 @@
 \begin{enumerate}
 
 	\item  \label{item:abstract motion to field}
-	assume the motion is described by
+	assume the motion of $\mathbf{c}$th particle is Lagrangian described by
 	\begin{align}
 	\mathbf{r}=\mathbf{f}(\mathbf{c},t)=\mathbf{g}(\mathbf{c})h(t)
 	\end{align}
-	find the expression of the velocity  field $\mathbf{v}$.
+	find the expression of the Euler velocity  field $\mathbf{v}$.
 	
 	\item
-	assume the motion is
+	assume the  motion of $c$th particle is Lagrangian written
 	\begin{align}
 	x=ct^2
 	\end{align}
-	use the result of \ref{item:abstract motion to field},find the expression of the velocity  field $v$.
+	use the result of \ref{item:abstract motion to field},find the expression of the Euler velocity  field $v$.
 	\item
 	suppose in a one dimensional flow, the motion of the $c$th fluid element is given by
 	 \begin{equation}
@@ -248,7 +248,7 @@
 \end{enumerate}
 
 
-\section{L3-L4}
+\section{L5-L6}
 \begin{enumerate}
 \item
 	Bernoulli Equation may be interpreted physically to mean that the total mechanical energy is conserved for a control volume:
@@ -289,5 +289,44 @@
 		A student needs to measure the drag on a prototype of characteristic length $d_p$ moving at velocity $U_p$ in air at sea-level conditions. He constructs a model of characteristic length $d_m$, such that the ratio $d_p/d_m = a$ factor $f$. He then measures the model drag under dynamically similar conditions, in sea-level air. The student claims that the drag force on the prototype will be identical to that of the model. Is this claim correct? Explain.
 
 \end{enumerate}
+
+
+
+\section{L7-L8}
+
+\begin{enumerate}
+	\item 已知平板泊肃叶流(Plane Poiseuille Flow)沿$y$方向的速度分布为
+	\begin{align}
+	u=\frac{\Delta p}{2\mu L}y(y-h)
+	\end{align}
+	其中$\Delta p$为选取的控制段$L$两端的压强差，$\mu$为流体的粘性(viscosity)，$h$为两板间距,如图所示
+	\begin{center}
+\includegraphics[width=0.7\linewidth]{"figs/plane poiseuille flow"}
+\end{center}
+	求当垂直纸面宽度$\Delta z=1$时(a)流量Q;(b)用雷诺数($Re=\frac{2\rho \bar{u}h}{\mu}$)表示上下板对流体的阻力系数$C_d=\frac{F_d}{\rho \bar{u}^2 L}$,其中$F_d$为上下板对流体的阻力，$\bar{u}$为流体的平均流速。
+	
+	
+	\item
+		已知某流动的无量纲化(nondimensionized)后的流体控制方程(governing equation)为
+		\begin{align}
+		\nabla \cdot \mathbf{u}=0\\
+		\mathbf{u}\cdot \nabla \mathbf{u}=-\nabla p+\frac{1}{Re}\nabla^2\mathbf{u}		
+		\end{align}
+		其中$Re$为雷诺数，$\mathbf{u}$为速度矢量场，$p$为压强场。现假定$Re<<1$,求该流动可能的简化方程
+		
+	\item
+	半径为$r$，密度为$\rho'$的油滴在密度为$\rho$的气体中自由下落，两者界面处的粘性系数为$\mu$。假定油滴只受浮力及粘性阻力,求稳定下落时油滴的速度大小$U$(提示：流动为creeping flow)
+	
+	
+	\item
+	粘性为$\mu$,密度为$\rho$的不可压流体以速度$U$流进一个圆直管，边界层自管口开始生长。若取管轴为$x$轴，原点在管口。设在离管口$l$处才能实现圆管的泊肃叶层流流动，求$l$并画出$x=0$,$0<x<l$,$x>l$时的速度剖面图。
+	
+	\item 
+	某圆管的粗糙度$\epsilon$为$0.0001d$,$d$为圆管直径,向其中通入粘性为$\mu$的流体，当圆管流量$Q_a$分别为$\frac{10^3\pi\mu d}{4\rho},\frac{10^4\pi\mu d}{4\rho},\frac{10^7\pi\mu d}{4\rho},\frac{10^8\pi\mu d}{4\rho}$时，求长为$L$的圆管段所受阻力大小
+	
+\end{enumerate}
+
+
+
 
 \end{document}

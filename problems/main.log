@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  19 OCT 2016 21:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  26 OCT 2016 18:04
 entering extended mode
 **main.tex
 
@@ -709,33 +709,65 @@ File: "figs/A fan draws air".jpg Graphic file (type jpg)
 Package pdftex.def Info: "figs/A fan draws air".jpg used on input line 271.
 (pdftex.def)             Requested size: 223.999pt x 108.64436pt.
  [12 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pr
-oblems/figs/A fan draws air.jpg>] [13]
+oblems/figs/A fan draws air.jpg>]
+<"figs/plane poiseuille flow".jpg, id=71, 718.18312pt x 433.62pt>
+File: "figs/plane poiseuille flow".jpg Graphic file (type jpg)
+
+<use "figs/plane poiseuille flow".jpg>
+Package pdftex.def Info: "figs/plane poiseuille flow".jpg used on input line 30
+4.
+(pdftex.def)             Requested size: 223.999pt x 135.24126pt.
+ [13 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/pr
+oblems/figs/plane poiseuille flow.jpg>]
+Overfull \hbox (7.70615pt too wide) in paragraph at lines 310--311
+[]\C19/rm/m/n/10.54/61 � \C19/rm/m/n/10.54/64  \C19/rm/m/n/10.54/51 , \C19/rm/
+m/n/10.54/49 6 \C19/rm/m/n/10.54/40 �  \C19/rm/m/n/10.54/58 � \C19/rm/m/n/10.5
+4/48 � \C19/rm/m/n/10.54/42 j \C19/rm/m/n/10.54/44 z\OT1/cmr/m/n/10.54 (nondime
+nsionized)\C19/rm/m/n/10.54/44   \C19/rm/m/n/10.54/40  \C19/rm/m/n/10.54/49 6 
+\C19/rm/m/n/10.54/57 N \C19/rm/m/n/10.54/47 � \C19/rm/m/n/10.54/64 � \C19/rm/m/
+n/10.54/41 � \C19/rm/m/n/10.54/38 �\OT1/cmr/m/n/10.54 (governing
+ []
+
+[14]
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\proble
 ms\main.aux") ) 
 Here is how much of TeX's memory you used:
- 10876 strings out of 494045
- 176650 string characters out of 3148017
- 212378 words of memory out of 3000000
- 13924 multiletter control sequences out of 15000+200000
- 14460 words of font info for 55 fonts, out of 3000000 for 9000
+ 11068 strings out of 494045
+ 180044 string characters out of 3148017
+ 215363 words of memory out of 3000000
+ 14086 multiletter control sequences out of 15000+200000
+ 23099 words of font info for 84 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,10n,39p,825b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WI
-NDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><D:/Program Files/CTEX/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Program Files/CTEX/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmbx7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmex10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Prog
-ram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program File
-s/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/CTEX/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/Program Files/CTEX/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (13 pages, 438397 bytes).
+NDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.tt
+c><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
+imsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
+/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:
+/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun
+.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Font
+s/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIND
+OWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc>
+<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sim
+sun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/F
+onts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/W
+INDOWS/Fonts/simsun.ttc><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pf
+b><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/P
+rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program 
+Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pf
+b><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/P
+rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (14 pages, 689054 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
