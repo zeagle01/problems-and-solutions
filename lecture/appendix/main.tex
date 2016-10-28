@@ -1,0 +1,46 @@
+\documentclass{ctexart}
+\author{}
+\date{2016.9.27}
+\title{Appendix}
+\bibliographystyle{plain}
+\newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[numbers,sort&compress,square,super]{natbib}
+\usepackage{graphicx}
+\usepackage{caption,subcaption}%插子图的子标题
+\usepackage{asymptote}
+%\usepackage{ctex}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+	\item compressible BNL equation
+	\begin{align*}
+	\frac{v^2}{2}+gz+\int \frac{dp}{\rho(p)}=c\\
+	p_1v_1^\gamma=p_2v_2^\gamma\\
+	\frac{p_1}{\rho_1^\gamma}=\frac{p_2}{\rho_2^\gamma}=c_1\\
+	p=c_1\rho^\gamma
+	\end{align*}
+	
+	
+		\begin{align*}
+			\int \frac{d(c_1\rho^\gamma)}{\rho}&=c_1\int \frac{\gamma\rho^{\gamma-1}d\rho}{\rho}\\
+			&=c_1\gamma\int \rho^{\gamma-2}d\rho\\
+			&=c_1\frac{\gamma}{\gamma-1}\rho^{\gamma-1}\\
+			&=\frac{\gamma}{\gamma-1}\frac{c_1\rho^{\gamma}}{\rho}\\
+			&=\frac{\gamma}{\gamma-1}\frac{p}{\rho}\\
+		\end{align*}
+		
+		$\Rightarrow$
+		\begin{align}
+		\frac{v^2}{2}+gz+\frac{\gamma}{\gamma}\frac{p}{\rho}=constant
+		\end{align}
+\end{enumerate}
+
+
+\end{document}
+
+
+
+

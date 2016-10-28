@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  26 OCT 2016 18:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  28 OCT 2016 00:10
 entering extended mode
 **main.tex
 
@@ -732,10 +732,10 @@ n/10.54/41 � \C19/rm/m/n/10.54/38 �\OT1/cmr/m/n/10.54 (governing
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\proble
 ms\main.aux") ) 
 Here is how much of TeX's memory you used:
- 11068 strings out of 494045
- 180044 string characters out of 3148017
+ 11070 strings out of 494045
+ 180081 string characters out of 3148017
  215363 words of memory out of 3000000
- 14086 multiletter control sequences out of 15000+200000
+ 14088 multiletter control sequences out of 15000+200000
  23099 words of font info for 84 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,10n,39p,825b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -765,7 +765,7 @@ fonts/cm/cmr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/P
 rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (14 pages, 689054 bytes).
+Output written on main.pdf (14 pages, 689445 bytes).
 PDF statistics:
  258 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
