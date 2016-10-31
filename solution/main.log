@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  26 OCT 2016 18:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  31 OCT 2016 19:23
 entering extended mode
 **main.tex
 
@@ -634,21 +634,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--609
 
  []
 
-[16] [17] [18] <"figs/entrance effect".jpg, id=111, 428.35031pt x 162.6075pt>
+[16] [17]
+Overfull \hbox (16.1804pt too wide) in alignment at lines 703--706
+ [][][] []
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+
+ []
+
+[19] [20] [21] <"figs/entrance effect".jpg, id=121, 428.35031pt x 162.6075pt>
 File: "figs/entrance effect".jpg Graphic file (type jpg)
 
 <use "figs/entrance effect".jpg>
-Package pdftex.def Info: "figs/entrance effect".jpg used on input line 745.
+Package pdftex.def Info: "figs/entrance effect".jpg used on input line 871.
 (pdftex.def)             Requested size: 223.999pt x 85.03276pt.
- [19 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/so
-lution/figs/entrance effect.jpg>] [20]
+ [22 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/so
+lution/figs/entrance effect.jpg>] [23]
 ("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\soluti
 on\main.aux") ) 
 Here is how much of TeX's memory you used:
- 11017 strings out of 494045
- 178307 string characters out of 3148017
+ 11018 strings out of 494045
+ 178324 string characters out of 3148017
  219366 words of memory out of 3000000
- 14045 multiletter control sequences out of 15000+200000
+ 14046 multiletter control sequences out of 15000+200000
  22803 words of font info for 83 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,15n,38p,825b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -678,9 +688,9 @@ amsfonts/cm/cmmi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts
 EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/Program Files/CTEX/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/CTEX/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (20 pages, 564765 bytes).
+Output written on main.pdf (23 pages, 573343 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
+ 272 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

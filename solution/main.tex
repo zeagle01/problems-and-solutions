@@ -697,7 +697,133 @@ note: the final result of the 2 solution are different ,the reason is still rema
 		\Delta u = u_2 - u_1 = g(z_1 - z_2) = gh \\
 		\Delta T = \frac{\Delta u}{c_p} = \frac{gh}{c_p} = \frac{9.8\times165}{4184} = 0.39 ~\mathrm{K}
 	\end{eqnarray*}
+	
+	
+	\item
+	\begin{eqnarray}
+	St=\mu^1 g^-1 \rho^a U^b D^c\\\relax
+	[\mu]=[M T^-1 L^-1],[g]=[L T^-2],[\rho]=[M L^3],[U]=[LT^-1],[D]=[L]\\
+	\end{eqnarray}
+	\begin{table}[tbp]
+		\centering 
+		\begin{tabular}{cccccc}  
+			\hline
+			&$\mu$ &g &$\rho$ &U &D\\ \hline 
+			M &1& &a\\         
+			T &-1&2 & &-b \\      
+			L &1 &-1 &-3a &b &c\\ \hline
+		\end{tabular}
+	\end{table}
+	\begin{eqnarray}
+	\Rightarrow 
+	a=-1,b=1,c=-2\\
+	\Rightarrow
+	St=\frac{\mu U}{\rho g D^2}=\frac{Fr}{Re}
+	\end{eqnarray}
+	
+	\item
+	\begin{eqnarray}
+	T=f(L,m,\theta,g)\\
+	\end{eqnarray}
+	$\theta $ is a dimensionless number\\
+	so $ T=f_1 (L^a,m^b,g^c)f_2(\theta)$
+	\begin{table}[h]
+		\centering 
+		\begin{tabular}{ccccc}  
+			\hline
+			&L &m &g&T \\ \hline 
+			M & &b &\\         
+			T & & &-2d &1 \\      
+			L &a & &d \\ \hline
+		\end{tabular}
+	\end{table}
+	\begin{eqnarray}
+	\Rightarrow a=\frac{1}{2}, b=0,c=-\frac{1}{2}\\
+	T=\sqrt[]{\frac{L}{g}}\cdot f_2(\theta)\\
+	\end{eqnarray}
+
+
+	
+	we can't calculate its period through dimensional analysis\\
+
+	\begin{eqnarray}
+	T_1=\sqrt[]{\frac{L_1}{g_1}}\cdot f_2(\theta)\\
+	T_2=\sqrt[]{\frac{L_2}{g_2}}\cdot f_2(\theta)\\
+	\end{eqnarray}
+	so
+	\begin{eqnarray}
+	T_2=T_1 \cdot \frac{\sqrt[]{\frac{L_2}{g_2}}}{\sqrt[]{\frac{L_1}{g_1}}}=2.75s
+	\end{eqnarray}
+	
+	
+	\item 
+	the dimensional matrix is:
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{ccccc}
+			\hline
+			&D &$\rho$ &t&E \\ \hline 
+			M & &1 & &1\\         
+			L &1 &-3 & &2 \\      
+			T & & &1 &-2 \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	the rank of this matrix is 3\\
+	the number of dimensionless group is 4-3=1\\	 
+	$\frac{Et^2}{D^5\rho}=constant$
+	
+	
+	
+	\item 
+	the dimensional matrix is
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{cccccc}
+			\hline
+			&$\rho$ &l &R &t &k \\ \hline 
+			M &1  & & & &1\\         
+			L &-3 &1 &2 & &1 \\      
+			T & & &-2 &1 &-1 \\ 
+			$\theta$ &&&-1&1&-1\\\hline
+		\end{tabular}
+	\end{table}
+	 the rank of this matrix is 4,
+	 the number of dimensional groups is 5-4=1
+	 
+	\begin{eqnarray}
+	\frac{k}{R^\frac{3}{2} T^\frac{1}{2} \rho l}=constant 
+	\end{eqnarray}
+	 
+	R=287,$\rho=1.2041$\\
+	constant=4.1339
+	
+	so 
+	\begin{eqnarray}
+	k_{hydrogen}=constant\cdot R^\frac{3}{2} T^\frac{1}{2} \rho l=0.178
+	\end{eqnarray}
+	
+	\item
+	dynamic similarity requires 
+	\begin{eqnarray}
+	\frac{\rho_m V_m d_m}{\mu_m}=\frac{\rho_p V_p d_p}{\mu_p}
+	\end{eqnarray}
+	for incompressible-flow and in the same environment $\rho_m=\rho_p ,\mu_m=\mu_p$
+	\begin{eqnarray}
+	\Rightarrow \frac{V_m}{V_p}=\frac{d_p}{d_m}=f
+	\end{eqnarray}
+	for a dynamic similarity model, Reynolds number is the same with the prototype,so its dimensionless drag force is also equal.
+	\begin{eqnarray}
+	\frac{F_m}{\rho_m V_m^2 L_m^2}=\frac{F_p}{\rho_p V_p^2 L_p^2}\\
+	\Rightarrow F_m=F_p
+	\end{eqnarray}
+	
 \end{enumerate}
+
+
+
+
+
 
 \section{L7-L8}
 \begin{enumerate}
