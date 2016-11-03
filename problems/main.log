@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  28 OCT 2016 00:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  2 NOV 2016 23:50
 entering extended mode
 **main.tex
 
@@ -728,14 +728,45 @@ nsionized)\C19/rm/m/n/10.54/44   \C19/rm/m/n/10.54/40  \C19/rm/m/n/10.54/49 6
 n/10.54/41 ê \C19/rm/m/n/10.54/38 ß\OT1/cmr/m/n/10.54 (governing
  []
 
-[14]
+
+Overfull \hbox (2.4745pt too wide) in paragraph at lines 331--332
+[]\C19/rm/m/n/10.54/61 ò \C19/rm/m/n/10.54/48 ˝\OT1/cmr/m/n/10.54 1998\C19/rm/m
+/n/10.54/51 c \C19/rm/m/n/10.54/40  \C19/rm/m/n/10.54/48 X \C19/rm/m/n/10.54/4
+7 é \C19/rm/m/n/10.54/54 i \C19/rm/m/n/10.54/56 d\OT1/cmr/m/n/10.54 LS400\C19/r
+m/m/n/10.54/38 ê \C19/rm/m/n/10.54/40  \C19/rm/m/n/10.54/65 { \C19/rm/m/n/10.5
+4/48 Â \C19/rm/m/n/10.54/59 X \C19/rm/m/n/10.54/55 Í \C19/rm/m/n/10.54/58 è\OT1
+/cmr/m/n/10.54 0.28,\C19/rm/m/n/10.54/37 Î \C19/rm/m/n/10.54/47  \C19/rm/m/n/1
+0.54/50 ° \C19/rm/m/n/10.54/44 » \C19/rm/m/n/10.54/58 è\OT1/cmr/m/n/10.54 2.4$\
+OML/cmm/m/it/10.54 m[]$\OT1/cmr/m/n/10.54 .\C19/rm/m/n/10.54/53 ¶
+ []
+
+
+Overfull \hbox (3.34372pt too wide) in paragraph at lines 334--335
+[]\C19/rm/m/n/10.54/36 ï \C19/rm/m/n/10.54/53 • \C19/rm/m/n/10.54/40  \C19/rm/
+m/n/10.54/64 ± \C19/rm/m/n/10.54/38  \C19/rm/m/n/10.54/58 è\OT1/cmr/m/n/10.54 
+23.495 cm,\C19/rm/m/n/10.54/64 ≠\OT1/cmr/m/n/10.54 149 g,\C19/rm/m/n/10.54/63 3
+\OT1/cmr/m/n/10.54 95m/h\C19/rm/m/n/10.54/40  \C19/rm/m/n/10.54/56 Ñ \C19/rm/m
+/n/10.54/40 › \C19/rm/m/n/10.54/59 e \C19/rm/m/n/10.54/53 ¶|\C19/rm/m/n/10.54/2
+6 µ| \OT1/cmr/m/n/10.54 (1)\C19/rm/m/n/10.54/48 X \C19/rm/m/n/10.54/51 Ï \C19/r
+m/m/n/10.54/55 Í\OT1/cmr/m/n/10.54 .(2)\C19/rm/m/n/10.54/65 {
+ []
+
+<"figs/A baseball has a circumference".jpg, id=98, 398.99063pt x 235.63031pt>
+File: "figs/A baseball has a circumference".jpg Graphic file (type jpg)
+
+<use "figs/A baseball has a circumference".jpg>
+Package pdftex.def Info: "figs/A baseball has a circumference".jpg used on inpu
+t line 336.
+(pdftex.def)             Requested size: 223.999pt x 132.28644pt.
+ [14] [15 <D:/roming vault/Log/life/jobs/ÂçóÁßëÂ§ß/‰º†ËæìÁé∞Ë±°Âä©Êïô/transfer-
+TA/problems/figs/A baseball has a circumference.jpg>]
 ("D:\roming vault\Log\life\jobs\ÂçóÁßëÂ§ß\‰º†ËæìÁé∞Ë±°Âä©Êïô\transfer-TA\proble
 ms\main.aux") ) 
 Here is how much of TeX's memory you used:
- 11070 strings out of 494045
- 180081 string characters out of 3148017
- 215363 words of memory out of 3000000
- 14088 multiletter control sequences out of 15000+200000
+ 11099 strings out of 494045
+ 180749 string characters out of 3148017
+ 217363 words of memory out of 3000000
+ 14116 multiletter control sequences out of 15000+200000
  23099 words of font info for 84 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,10n,39p,825b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -765,9 +796,9 @@ fonts/cm/cmr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pf
 b><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/P
 rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (14 pages, 689445 bytes).
+Output written on main.pdf (15 pages, 714012 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
+ 263 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
