@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  7 NOV 2016 23:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.30)  8 NOV 2016 02:37
 entering extended mode
 **main.tex
 
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\soluti
-on\main.tex"
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\mid-te
+rm exam\solutions\main.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -438,13 +438,14 @@ Package: subcaption 2011/10/30 v1.1c Sub-captions (AR)
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\asymptote.sty"
 Package: asymptote 2015/05/10 v1.29 Asymptote style file for LaTeX
 
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\soluti
-on\main.pre")
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\mid-te
+rm exam\solutions\main.pre")
 \ASYbox=\box38
 \c@asy=\count183
 \AsyStream=\write3
 \AsyPreStream=\write4
- ("D:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\catchfile.sty"
@@ -462,8 +463,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\soluti
-on\main.aux")
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\mid-te
+rm exam\solutions\main.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -542,7 +543,8 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- ("D:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
+
+("D:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count184
 \scratchdimen=\dimen156
@@ -576,121 +578,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for C19+rm on input line 21.
+) [1
 
-("D:\Program Files\CTEX\MiKTeX\tex\latex\ctex\fd\c19rm.fd"
-File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
-)
-Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
- family 'def' instead. on input line 21.
- [1
-
-] [2] [3]
-[4] <figs/baloon.jpg, id=59, 963.6pt x 1284.8pt>
-File: figs/baloon.jpg Graphic file (type jpg)
- <use figs/baloon.jpg>
-Package pdftex.def Info: figs/baloon.jpg used on input line 219.
-(pdftex.def)             Requested size: 172.5pt x 229.99933pt.
- [5 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/sol
-ution/figs/baloon.jpg>]
-<"../problems/figs/beach ball variables".jpg, id=63, 963.6pt x 1284.8pt>
-File: "../problems/figs/beach ball variables".jpg Graphic file (type jpg)
-
-<use "../problems/figs/beach ball variables".jpg>
-Package pdftex.def Info: "../problems/figs/beach ball variables".jpg used on in
-put line 266.
-(pdftex.def)             Requested size: 159.99998pt x 213.31595pt.
- [6] [7 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA
-/problems/figs/beach ball variables.jpg>] [8] [9]
-<"figs/L2-10 lecture mothod".jpg, id=77, 963.6pt x 722.7pt>
-File: "figs/L2-10 lecture mothod".jpg Graphic file (type jpg)
-
-<use "figs/L2-10 lecture mothod".jpg>
-Package pdftex.def Info: "figs/L2-10 lecture mothod".jpg used on input line 390
-.
-(pdftex.def)             Requested size: 223.999pt x 167.99292pt.
- [10] [11 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-
-TA/solution/figs/L2-10 lecture mothod.jpg>] [12] [13] <figs/4-12.jpg, id=91, 41
-4.79968pt x 251.43938pt>
-File: figs/4-12.jpg Graphic file (type jpg)
-
-<use figs/4-12.jpg>
-Package pdftex.def Info: figs/4-12.jpg used on input line 561.
-(pdftex.def)             Requested size: 287.99802pt x 174.58295pt.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
-
- []
-
-[15 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/sol
-ution/figs/4-12.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
-
- []
-
-[16] [17]
-Overfull \hbox (16.1804pt too wide) in alignment at lines 703--706
- [][][] []
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
-
- []
-
-[19] [20] [21] <"figs/entrance effect".jpg, id=121, 428.35031pt x 162.6075pt>
-File: "figs/entrance effect".jpg Graphic file (type jpg)
-
-<use "figs/entrance effect".jpg>
-Package pdftex.def Info: "figs/entrance effect".jpg used on input line 871.
-(pdftex.def)             Requested size: 223.999pt x 85.03276pt.
- [22 <D:/roming vault/Log/life/jobs/南科大/传输现象助教/transfer-TA/so
-lution/figs/entrance effect.jpg>] [23]
-("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\soluti
-on\main.aux") ) 
+] [2]
+("D:\roming vault\Log\life\jobs\南科大\传输现象助教\transfer-TA\mid-te
+rm exam\solutions\main.aux") ) 
 Here is how much of TeX's memory you used:
- 11028 strings out of 494045
- 178497 string characters out of 3148017
- 219366 words of memory out of 3000000
- 14055 multiletter control sequences out of 15000+200000
- 23101 words of font info for 84 fonts, out of 3000000 for 9000
+ 10568 strings out of 494045
+ 168338 string characters out of 3148017
+ 214352 words of memory out of 3000000
+ 13642 multiletter control sequences out of 15000+200000
+ 12703 words of font info for 49 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 36i,15n,38p,825b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WI
-NDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.tt
-c><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
-imsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS
-/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:
-/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun
-.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Font
-s/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIND
-OWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc>
-<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sim
-sun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/F
-onts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/W
-INDOWS/Fonts/simsun.ttc><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pf
-b><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/P
-rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program 
-Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/CTEX/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pf
-b><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/P
-rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (23 pages, 581031 bytes).
+ 36i,9n,38p,825b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Prog
+ram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Program File
+s/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (2 pages, 81520 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

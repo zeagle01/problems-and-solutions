@@ -1,0 +1,158 @@
+\documentclass{ctexart}
+\author{}
+\date{2016.11.17}
+\title{mid-term exam}
+\bibliographystyle{plain}
+\newenvironment{keywords} {\\关键字：\kaishu\zihao{-5}} {}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[numbers,sort&compress,square,super]{natbib}
+\usepackage{graphicx}
+\usepackage{caption,subcaption}%插子图的子标题
+\usepackage{asymptote}
+%\usepackage{ctex}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+	\item
+	let $t=0$
+	\begin{align}
+	\frac{dx}{dt}=x\\
+	\frac{dy}{dt}=-y
+	\end{align}
+	$\Rightarrow$
+	\begin{align}
+	x=c_xe^t\\
+	y=c_ye^{-t}
+	\end{align}
+	let $t=0$
+	we have
+	\begin{align}
+	c_x=-1\\
+	c_y=-1
+	\end{align}
+	so the streamline is
+	\begin{align}
+	xy=1
+	\end{align}
+	
+	
+		\begin{align}
+		\frac{dx}{dt}=x+t\\
+		\frac{dy}{dt}=-y+t
+		\end{align}
+		$\Rightarrow$
+		\begin{align}
+		x=c_xe^t-t-1\\
+		y=c_ye^{-t}+t-1
+		\end{align}
+		use the condition of $x=-1,y=-1$ when $t=0$
+		$\Rightarrow$
+		\begin{align}
+		x+y+2=0
+		\end{align}
+	
+	
+	\item 
+	\begin{align}
+	u=(a+1)e^t-1\\
+	v=(b+1)e^t-1
+	\end{align}
+	
+			$\Rightarrow$
+			\begin{align}
+			x=c_xe^t-t-1\\
+			y=c_ye^{-t}-t-1
+			\end{align}
+			use the condition $x=a,y=b$ when $t=0$
+			\begin{align}
+			c_x=a+1\\
+			c_y=b+1
+			\end{align}
+			so 
+			\begin{align}
+			u=(a+1)e^t-1\\
+			v=(b+1)e^t-1
+			\end{align}
+			
+			
+%	\item
+%	\begin{enumerate}
+%		\item 
+%		\begin{align}
+%		\frac{\partial \rho \xi}{\partial t}+\mathbf{u}\cdot\nabla (\rho \xi)+\nabla \Theta=0
+%		\end{align}
+%		\item
+%		the continuity equation:
+%		\begin{align}
+%		\frac{\partial \rho}{\partial t}+\frac{\rho }{den}
+%		\end{align}
+%	\end{enumerate}
+	
+	\item
+	\begin{align}
+	\frac{\partial (\rho A)}{\partial t}+\frac{\partial (\rho A u)}{\partial x}=0
+	\end{align}
+	
+	\item
+	\begin{align}
+	\frac{\partial \rho}{\partial t}+\nabla \cdot (\rho \mathbf{u})=0
+	\end{align}
+	$\Rightarrow$
+		\begin{align}
+		\frac{\partial \rho}{\partial t}+\rho\nabla \cdot  \mathbf{u}+  \mathbf{u} \cdot\nabla \rho=0
+		\end{align}
+		using the incompressible condition
+		\begin{align}
+		\frac{d\rho}{dt}=\frac{\partial \rho}{\partial t}+  \mathbf{u} \cdot\nabla \rho=0
+		\end{align}
+		$\Rightarrow$
+		\begin{align}
+		\nabla \cdot \mathbf{u}=0
+		\end{align}
+\end{enumerate}
+
+
+%\section{Mid-term exam}
+%\begin{enumerate}
+%	\item suppose a fluid element moves through the equation as follow,
+%	\begin{align*}
+%	x=2+0.01\sqrt{t^5}\\
+%	y=2+0.01\sqrt{t^5}\\
+%	z=2
+%	\end{align*}
+%	find the acceleration when the particle is at $x=8$
+%	
+%	\item
+%	given a velocity field as follow,
+%	\begin{align*}
+%	u=yzt\\
+%	v=zxt\\
+%	w=0
+%	\end{align*}
+%	find the acceleration of fluid element at (2,5,3) when $t=10$
+%	
+%	
+%	\item 
+%	given a \textbf{incompressible} flow whose $x$ component of velocity is
+%	\begin{align}
+%	u=ax^2+by
+%	\end{align}
+%	where $a,b$ are constant, determine the $y$ component of velocity $v$. assume $y=0$ when $v=0$
+%	
+%	
+%	\item
+%	given a \textbf{incompressible} flow whose $x$ component of velocity is
+%	\begin{align}
+%	u=e^{-x}\cosh y +1
+%	\end{align}
+%	where $a,b$ are constant, determine the $y$ component of velocity $v$. assume $y=0$ when $v=0$
+%	
+%\end{enumerate}
+
+
+
+
+\end{document}
