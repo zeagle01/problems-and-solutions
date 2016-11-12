@@ -1,0 +1,173 @@
+\documentclass[12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{amsmath,amsfonts,enumerate}
+\usepackage{color,graphicx}
+\usepackage{bm}
+\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Do your customization here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\masunitnumber}{}
+\newcommand{\examdate}{November 2016}
+\newcommand{\academicyear}{2016-2017}
+\newcommand{\semester}{I}
+\newcommand{\coursename}{Transport Pheonomena}
+\newcommand{\numberofhours}{2}
+
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\FF}{\mathbb{F}}
+%\DeclareMathOperator{\diam}{diam}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Don't touch anything from here till instructions
+% to candidates
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{}
+\rhead{}
+\chead{{\bf SOUTHERN UNIVERSITY OF SCIENCE AND TECHNOLOGY}}
+\lfoot{}
+\rfoot{}
+\cfoot{}
+\begin{document}
+\setlength{\headsep}{5truemm}
+\setlength{\headheight}{14.5truemm}
+\setlength{\voffset}{-0.45truein}
+\renewcommand{\headrulewidth}{0.0pt}
+\begin{center}
+SEMESTER \semester\ EXAMINATION \academicyear
+\end{center}
+\begin{center}
+{\bf \masunitnumber\ -- \coursename}
+\end{center}
+\vspace{20truemm}
+
+\noindent \examdate\hspace{55truemm} TIME ALLOWED: \numberofhours\ HOURS
+
+\vspace{19truemm}
+\hrule
+\vspace{19truemm}
+
+\noindent\underline{INSTRUCTIONS TO CANDIDATES}
+\vspace{8truemm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adjust your instructions here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+	\item This examination paper contains {\bf 8} questions.
+	
+	\item Answer all questions. 
+	The marks for each question are indicated at the beginning of each question.
+	
+	
+	\item This {\bf IS NOT an OPEN BOOK} exam.
+	
+	\item Candidates may use calculators. However, they should write down systematically the steps in the workings.
+	
+	\item Some formulas that might help.\\
+	For laminar pipe flow,
+	$u_{avg}=-\frac{1}{8\mu}\frac{\Delta p}{\Delta x}R^2$,$\Delta p$ is the pressure loss due to viscous effects, $R$ is the radius of pipe\\
+	For pipe flow, $h_f=f\frac{L}{d}\frac{v^2}{2g}$, $f$ is the friction factor\\
+	The acceleration of gravity $g=\mathrm{10m\cdot s^{-2}}$\\
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% leave this as it is
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\lhead{}
+\rhead{\masunitnumber}
+\chead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\setlength{\footskip}{45pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% put your exam questions here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newpage
+\paragraph{Problem 1.}\hfill (10 marks)\\
+Determine the difference in pressure between the inside and outside of a soap film bubble at 20$^\circ\mathrm{C}$, if the diameter of the bubble is 5 mm. (The coefficient of surface tension $\sigma$=0.025 N/m.)
+
+\bigskip
+\paragraph{Problem 2.}\hfill (14 marks)\\
+Gate $AB$ in figure below is semicircular, hinged at $B$, and held by a horizontal force $P$ at $A$. What force $P$ is required for equilibrium?
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=0.5\linewidth]{"figs/problem 2B"}
+	\caption{Problem 2}
+	\label{fig:problem-2}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{"figs/problem 2B hint"}
+	\caption{Centroidal coordinates and moments of area for a semicircle}
+	\label{fig:problem-2 hint}
+\end{figure}
+
+
+
+\newpage
+\paragraph{Problem 3.}\hfill (14 marks)\\
+Assume some 2-dimensional flow field satisfy
+\begin{align*}
+u=x+t\\
+v=y+t
+\end{align*}
+and let $x=a,y=b$ when $t=0$, find the Lagrangian velocity expression.
+
+
+
+\bigskip
+\paragraph{Problem 4.}\hfill (10 marks)\\
+Show mass conservation of  incompressible flow is
+\begin{align*}
+\nabla \cdot \mathbf{u}=0
+\end{align*}
+
+
+\paragraph{Problem 5.}\hfill (12 marks)\\
+Below is a picture which describes the siphon phenomenon: the water is siphoned from a large tank through a constant diameter hose. Assume water to be inviscid, incompressible and flow to be steady. (The acceleration of gravity $g=\mathrm{10 \, m\cdot s^{-2}}$.) Please determine:
+\begin{enumerate}[(a)]
+	\item
+	velocity of water leaving (3) as a free jet
+	\item
+	water pressure in tube at (2)
+\end{enumerate}
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=0.5\linewidth]{"figs/problem 5"}
+	\caption{Problem 5}
+	\label{fig:problem-5}
+\end{figure}
+
+
+\newpage
+\paragraph{Problem 6.}\hfill (14 marks)\\
+In flow past a flat plate, the boundary layer thickness $\delta$ varies with distance $x$, freestream velocity $U$, viscosity $\mu$, and density $\rho$. Find the dimensionless parameters for this problem.
+
+
+
+\paragraph{Problem 7.}\hfill (10 marks)\\
+Write out the three components of $\frac{D\textbf{u}}{Dt}=-\frac{1}{\rho}\nabla p+\nu \nabla^2 \textbf{u}$ in x-y-z Cartesian coordinates.b) Set u =(u(y), 0, 0), and simplified the x- and y-momentum equations.\\
+
+
+
+\paragraph{Problem 8.}\hfill (16 marks)\\
+The tank–pipe system of Fig.xxx is to deliver at least $11\mathrm{m^3/h}$ of water at $20^{\circ}$C to the reservoir. What is the maximum roughness height  allowable for the pipe? ($\rho=1000\mathrm{kg/m^3} \text{ , } \mu=0.001\mathrm{kg/(m\cdot s)}$ and $g=\mathrm{10m\cdot s^{-2}}$)\\
+hint:$h_f=f\frac{L}{d}\frac{v^2}{2g}$, $f$ is the friction factor\\ 
+
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"figs/problem 8"}
+	\caption{Problem 8}
+	\label{fig:problem-8}
+\end{figure}
+
+%\vfill
+%\begin{center}{\bf END OF PAPER}\end{center}
+\end{document}

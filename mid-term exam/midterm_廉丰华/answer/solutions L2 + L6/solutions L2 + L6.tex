@@ -1,0 +1,96 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Solutions L2 + L6}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\paragraph{Solution 2. A}\hfill \\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{"figs/solution 2A"}
+	%\caption{solution 2}
+	\label{fig:solution-2}
+\end{figure}
+
+
+\newpage
+\paragraph{Solution 2. B}\hfill \\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{"figs/solution 2B"}
+	%\caption{solution 2}
+	\label{fig:solution-2}
+\end{figure}
+
+
+\newpage
+\paragraph{Solution 6. A}\hfill \\
+Write the given relation and count variables:
+\begin{equation*}
+Q = f(R, \mu, \frac{\mathrm{d}p}{\mathrm{d}x}) \quad \text{four variables} \, (n=4)
+\end{equation*}
+Make a list of the dimensions of these variables using the $\{MLT\}$ system:
+\begin{table}[h]
+	\centering
+	\begin{tabular}{c|c|c|c}
+		\hline
+		$Q$ & $R$ & $\mu$ & $\mathrm{d}p/\mathrm{d}x$ \\
+		\hline
+		$L^3T^{-1}$ & $L$ & $ML^{-1}T^{-1}$ & $ML^{-2}T^{-2}$ \\
+		\hline
+	\end{tabular}
+\end{table}
+There are three primary dimensions $(M, L, T)$, hence $j=3$. By trial and error we determine that $R, \mu, \text{and } \mathrm{d}p/\mathrm{d}x$ cannot be combined into a pi group. Then $j=3$, and $n-j = 4-3 =1$. There is only $one$ pi group, which we find by combining $Q$ in a power product with the other three:
+\begin{equation*}
+\Pi_1 = R^a \mu^b (\frac{\mathrm{d}p}{\mathrm{d}x})^c Q^1 = (L)^a (ML^{-1}T^{-1})^b (ML^{-2}T^{-2})^c (L^3T^{-1}) 
+= M^0 L^0 T^0
+\end{equation*}
+Equate exponents:
+\begin{align*}
+\begin{cases}
+    b +  c     = 0 \\
+a - b - 2c + 3 = 0 \\
+  - b - 2c - 1 = 0 \\
+\end{cases}
+\end{align*}
+Solving simultaneously, we obtain $a=-4$, $b=1$, and $c=-1$. Then
+\begin{equation*}
+\Pi_1 = R^{-4} \mu^1 (\frac{\mathrm{d}p}{\mathrm{d}x})^{-1} Q
+\end{equation*}
+or
+\begin{equation*}
+\Pi_1 = \frac{Q \mu}{R^4 (\mathrm{d}p/\mathrm{d}x)} = \text{const}
+\end{equation*}
+
+
+
+\paragraph{Solution 6. B}\hfill \\
+The functional relationship is $\delta = f(x, U, \mu, \rho)$, with $n = 5$ variables and $j = 3$ primary dimensions $(M,L,T)$. Thus we expect $n − j = 5 − 3 = 2$ Pi groups:
+\begin{equation*}
+\Pi_1 = \rho^a x^b \mu^c \delta = M^0 L^0 T^0 \quad \text{if } a=0, b=-1, c=0: \Pi_1=\frac{\delta}{x}
+\end{equation*}
+\begin{equation*}
+\Pi_2 = \rho^a x^b \mu^c U = M^0 L^0 T^0 \quad \text{if } a=1, b=1, c=-1: \Pi_2=\frac{\rho U x}{\mu}
+\end{equation*}
+Thus $\delta/x = f(\rho U x / \mu) = f(Re_x)$.
+
+
+
+\end{document}
